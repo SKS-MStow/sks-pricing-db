@@ -1,0 +1,4161 @@
+{
+ "source": "Master BoM (1).xlsx",
+ "vendor_map": {
+  "Jands": {
+   "action": "import",
+   "supplier": "Jands",
+   "alternates": [],
+   "rows": 470,
+   "tabs": [
+    "Audio - Amps",
+    "Audio - Microphones",
+    "Audio - Speakers",
+    "Broadcast",
+    "Hardware",
+    "Hearing Aug",
+    "Lighting",
+    "Room Booking Panels",
+    "VC"
+   ]
+  },
+  "Kramer": {
+   "action": "import",
+   "supplier": "Kramer",
+   "alternates": [],
+   "rows": 438,
+   "tabs": [
+    "AVoIP",
+    "Audio - Amps",
+    "Audio - DSP",
+    "Audio - Speakers",
+    "Cables",
+    "Control",
+    "Mounts",
+    "Room Booking Panels",
+    "Sources",
+    "Switching & Distribution",
+    "TEMP - GCEC Cables",
+    "Table Boxes",
+    "USB",
+    "VC",
+    "dvLED Display"
+   ]
+  },
+  "Crestron": {
+   "action": "import",
+   "supplier": "Crestron",
+   "alternates": [],
+   "rows": 431,
+   "tabs": [
+    "AVoIP",
+    "Audio - Amps",
+    "Audio - DSP",
+    "Audio - Microphones",
+    "Audio - Speakers",
+    "Cables",
+    "Control",
+    "Hardware",
+    "Room Booking Panels",
+    "Sources",
+    "Switching & Distribution",
+    "Table Boxes",
+    "USB",
+    "VC",
+    "dvLED Display"
+   ]
+  },
+  "Extron": {
+   "action": "import",
+   "supplier": "Extron",
+   "alternates": [],
+   "rows": 374,
+   "tabs": [
+    "AVoIP",
+    "Audio - Amps",
+    "Audio - DSP",
+    "Audio - Speakers",
+    "Cables",
+    "Control",
+    "Hardware",
+    "Room Booking Panels",
+    "Signage & IPTV",
+    "Sources",
+    "Switching & Distribution",
+    "Table Boxes",
+    "USB",
+    "dvLED Display"
+   ]
+  },
+  "TAG": {
+   "action": "import",
+   "supplier": "Technical Audio Group",
+   "alternates": [],
+   "rows": 343,
+   "tabs": [
+    "AVoIP",
+    "Audio - Amps",
+    "Audio - DSP",
+    "Audio - Microphones",
+    "Audio - Speakers",
+    "Broadcast",
+    "Control",
+    "VC"
+   ]
+  },
+  "Madison": {
+   "action": "import",
+   "supplier": "MadisonAV",
+   "alternates": [],
+   "rows": 329,
+   "tabs": [
+    "AVoIP",
+    "Audio - DSP",
+    "Audio - Microphones",
+    "Audio - Speakers",
+    "Broadcast",
+    "Cable Rolls (Per Meter)",
+    "Cables",
+    "Control",
+    "Hearing Aug",
+    "Mounts",
+    "Room Booking Panels",
+    "Signage & IPTV",
+    "Switching & Distribution",
+    "USB",
+    "VC"
+   ]
+  },
+  "Amber Tech": {
+   "action": "import",
+   "supplier": "Amber Technology",
+   "alternates": [],
+   "rows": 264,
+   "tabs": [
+    "Audio - Amps",
+    "Audio - DSP",
+    "Audio - Speakers",
+    "Cable Rolls (Per Meter)",
+    "Control",
+    "Hardware",
+    "Hearing Aug",
+    "Projectors",
+    "Sound Masking",
+    "Sources"
+   ]
+  },
+  "Anixter": {
+   "action": "import",
+   "supplier": "Anixter (Wesco)",
+   "alternates": [],
+   "rows": 187,
+   "tabs": [
+    "AVoIP",
+    "Audio - Amps",
+    "Audio - DSP",
+    "Audio - Speakers",
+    "Cable Rolls (Per Meter)",
+    "Cables",
+    "LCD Screens",
+    "Switching & Distribution",
+    "VC"
+   ]
+  },
+  "Kordz": {
+   "action": "import",
+   "supplier": "Kordz",
+   "alternates": [],
+   "rows": 186,
+   "tabs": [
+    "Cable Rolls (Per Meter)",
+    "Cables",
+    "Hardware",
+    "TEMP - GCEC Cables",
+    "USB"
+   ]
+  },
+  "Canohm": {
+   "action": "import",
+   "supplier": "Canohm",
+   "alternates": [],
+   "rows": 180,
+   "tabs": [
+    "Cable Rolls (Per Meter)",
+    "Hardware",
+    "Mounts",
+    "Projectors",
+    "Signage & IPTV",
+    "Sources",
+    "VC"
+   ]
+  },
+  "AVD": {
+   "action": "import",
+   "supplier": "Audio Visual Distributors",
+   "alternates": [],
+   "rows": 175,
+   "tabs": [
+    "AVoIP",
+    "Audio - Amps",
+    "Audio - DSP",
+    "Audio - Microphones",
+    "Cables",
+    "Hardware",
+    "LCD Screens",
+    "Networking",
+    "Room Booking Panels",
+    "Sources",
+    "Switching & Distribution",
+    "USB",
+    "VC",
+    "dvLED Display"
+   ]
+  },
+  "Sennheiser": {
+   "action": "import",
+   "supplier": "Sennheiser",
+   "alternates": [],
+   "rows": 153,
+   "tabs": [
+    "Audio - Microphones",
+    "Audio - Speakers",
+    "Broadcast",
+    "Hearing Aug",
+    "VC"
+   ]
+  },
+  "Australis": {
+   "action": "import",
+   "supplier": "Australis Pro Audio",
+   "alternates": [],
+   "rows": 148,
+   "tabs": [
+    "Audio - Amps",
+    "Audio - DSP",
+    "Audio - Microphones",
+    "Audio - Speakers",
+    "Broadcast",
+    "Hardware",
+    "Hearing Aug",
+    "Sources"
+   ]
+  },
+  "Biamp 5%": {
+   "action": "import",
+   "supplier": "Biamp",
+   "scope": "deal-reg-5",
+   "alternates": [],
+   "rows": 146,
+   "tabs": [
+    "AVoIP",
+    "Audio - Amps",
+    "Audio - DSP",
+    "Audio - Microphones",
+    "Audio - Speakers",
+    "Control",
+    "Room Booking Panels",
+    "Sound Masking",
+    "USB",
+    "VC"
+   ]
+  },
+  "Midwich / AV Supply": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [],
+   "rows": 145,
+   "tabs": [
+    "Hardware",
+    "Mounts",
+    "Networking",
+    "Projectors",
+    "VC"
+   ]
+  },
+  "Dicker / Bluechip": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "BlueChip Infotech"
+   ],
+   "rows": 140,
+   "tabs": [
+    "LCD Screens",
+    "Mounts",
+    "Room Booking Panels",
+    "Signage & IPTV",
+    "VC",
+    "dvLED Display"
+   ]
+  },
+  "Dicker / Ingram / Alloys": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "Ingram Micro",
+    "Alloys"
+   ],
+   "rows": 140,
+   "tabs": [
+    "Room Booking Panels",
+    "VC"
+   ]
+  },
+  "Ingram / Dicker / Westcon": {
+   "action": "import",
+   "supplier": "Ingram Micro",
+   "alternates": [
+    "Dicker Data",
+    "Westcon"
+   ],
+   "rows": 135,
+   "tabs": [
+    "Audio - Microphones",
+    "Cables",
+    "Networking",
+    "Room Booking Panels",
+    "Sources",
+    "VC"
+   ]
+  },
+  "Westan": {
+   "action": "import",
+   "supplier": "Westan",
+   "alternates": [],
+   "rows": 127,
+   "tabs": [
+    "Audio - Amps",
+    "Audio - Speakers",
+    "LCD Screens",
+    "Mounts",
+    "Sources",
+    "dvLED Display"
+   ]
+  },
+  "NAS": {
+   "action": "import",
+   "supplier": "NAS Australia",
+   "alternates": [],
+   "rows": 122,
+   "tabs": [
+    "Audio - Amps",
+    "Audio - DSP",
+    "Audio - Microphones",
+    "Audio - Speakers",
+    "Broadcast",
+    "Sound Masking",
+    "Sources"
+   ]
+  },
+  "Jands / Radio Parts": {
+   "action": "import",
+   "supplier": "Jands",
+   "alternates": [],
+   "rows": 121,
+   "tabs": [
+    "AVoIP",
+    "Audio - Amps",
+    "Audio - DSP",
+    "Cables",
+    "Control",
+    "Hardware",
+    "Switching & Distribution",
+    "USB",
+    "dvLED Display"
+   ]
+  },
+  "Amber": {
+   "action": "import",
+   "supplier": "Amber Technology",
+   "alternates": [],
+   "rows": 119,
+   "tabs": [
+    "AVoIP",
+    "Audio - Amps",
+    "Audio - Speakers",
+    "Hardware",
+    "Networking",
+    "Projectors",
+    "Signage & IPTV",
+    "Switching & Distribution",
+    "USB",
+    "VC"
+   ]
+  },
+  "Dicker / Ingram / Synnex": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "Ingram Micro",
+    "Synnex"
+   ],
+   "rows": 117,
+   "tabs": [
+    "Hardware",
+    "Room Booking Panels",
+    "USB",
+    "VC"
+   ]
+  },
+  "Biamp 0%": {
+   "action": "import",
+   "supplier": "Biamp",
+   "scope": "deal-reg-0",
+   "alternates": [],
+   "rows": 116,
+   "tabs": [
+    "Audio - Speakers",
+    "Sound Masking"
+   ]
+  },
+  "Screen Technics": {
+   "action": "import",
+   "supplier": "Screen Technics",
+   "alternates": [],
+   "rows": 114,
+   "tabs": [
+    "Floor Track",
+    "Mounts",
+    "Projectors"
+   ]
+  },
+  "Altronics": {
+   "action": "import",
+   "supplier": "Altronics",
+   "alternates": [],
+   "rows": 113,
+   "tabs": [
+    "Audio - Amps",
+    "Audio - Microphones",
+    "Audio - Speakers",
+    "Cables",
+    "Control",
+    "Hardware",
+    "Hearing Aug",
+    "Sources"
+   ]
+  },
+  "Audio Brands": {
+   "action": "import",
+   "supplier": "Audio Brands Australia",
+   "alternates": [],
+   "rows": 113,
+   "tabs": [
+    "Audio - Amps",
+    "Audio - DSP",
+    "Audio - Microphones",
+    "Audio - Speakers",
+    "Cables",
+    "Hearing Aug",
+    "Sources"
+   ]
+  },
+  "Yamaha": {
+   "action": "import",
+   "supplier": "Yamaha",
+   "alternates": [],
+   "rows": 112,
+   "tabs": [
+    "Audio - Amps",
+    "Audio - DSP",
+    "Audio - Microphones",
+    "Audio - Speakers",
+    "Networking"
+   ]
+  },
+  "Midwich": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [],
+   "rows": 101,
+   "tabs": [
+    "Audio - DSP",
+    "Audio - Microphones",
+    "LCD Screens",
+    "Mounts",
+    "Signage & IPTV",
+    "Sources",
+    "USB",
+    "VC",
+    "dvLED Display"
+   ]
+  },
+  "Quantum / Alloys / Dicker / Midwich": {
+   "action": "import",
+   "supplier": "Quantum Sphere",
+   "alternates": [
+    "Alloys",
+    "Dicker Data",
+    "Midwich"
+   ],
+   "rows": 98,
+   "tabs": [
+    "LCD Screens",
+    "Signage & IPTV",
+    "Sources"
+   ]
+  },
+  "Radio Parts": {
+   "action": "import",
+   "supplier": "Radio Parts",
+   "alternates": [],
+   "rows": 90,
+   "tabs": [
+    "Audio - Microphones",
+    "Cable Rolls (Per Meter)",
+    "Cables",
+    "Control",
+    "Floor Track",
+    "Hardware",
+    "Signage & IPTV",
+    "Sources",
+    "TEMP - GCEC Cables"
+   ]
+  },
+  "Dicker / Ingram": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "Ingram Micro"
+   ],
+   "rows": 88,
+   "tabs": [
+    "Cables",
+    "Hardware",
+    "Networking",
+    "VC"
+   ]
+  },
+  "Midwich / Dicker / Ingram / WBT": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [
+    "Dicker Data",
+    "Ingram Micro",
+    "WBT"
+   ],
+   "rows": 87,
+   "tabs": [
+    "LCD Screens",
+    "Signage & IPTV"
+   ]
+  },
+  "Bluechip / Leader / CommsPlus / Dicker / Madison": {
+   "action": "import",
+   "supplier": "BlueChip Infotech",
+   "alternates": [
+    "Leader Computers",
+    "CommsPlus",
+    "Dicker Data",
+    "MadisonAV"
+   ],
+   "rows": 85,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Lindy": {
+   "action": "import",
+   "supplier": "Lindy",
+   "alternates": [],
+   "rows": 84,
+   "tabs": [
+    "Cable Rolls (Per Meter)",
+    "Cables",
+    "Hardware",
+    "Switching & Distribution",
+    "TEMP - GCEC Cables",
+    "USB",
+    "VC"
+   ]
+  },
+  "Madison AV": {
+   "action": "import",
+   "supplier": "MadisonAV",
+   "alternates": [],
+   "rows": 83,
+   "tabs": [
+    "Audio - Amps",
+    "Cable Rolls (Per Meter)",
+    "Hearing Aug",
+    "TEMP - GCEC Cables",
+    "Table Boxes"
+   ]
+  },
+  "Barco": {
+   "action": "import",
+   "supplier": "Barco",
+   "alternates": [],
+   "rows": 82,
+   "tabs": [
+    "AVoIP",
+    "LCD Screens",
+    "Projectors",
+    "dvLED Display"
+   ]
+  },
+  "ECD": {
+   "action": "import",
+   "supplier": "ECD",
+   "alternates": [],
+   "rows": 82,
+   "tabs": [
+    "Floor Track",
+    "Table Boxes"
+   ]
+  },
+  "Lindy / Midwich": {
+   "action": "import",
+   "supplier": "Lindy",
+   "alternates": [
+    "Midwich"
+   ],
+   "rows": 78,
+   "tabs": [
+    "Cables"
+   ]
+  },
+  "Corsair": {
+   "action": "import",
+   "supplier": "Corsair",
+   "alternates": [],
+   "rows": 74,
+   "tabs": [
+    "AVoIP",
+    "Audio - DSP",
+    "Projectors",
+    "Signage & IPTV",
+    "USB",
+    "VC",
+    "dvLED Display"
+   ]
+  },
+  "Quantum Sphere": {
+   "action": "import",
+   "supplier": "Quantum Sphere",
+   "alternates": [],
+   "rows": 73,
+   "tabs": [
+    "Cables",
+    "Mounts",
+    "Room Booking Panels",
+    "Switching & Distribution"
+   ]
+  },
+  "Group Technologies": {
+   "action": "import",
+   "supplier": "Group Technologies",
+   "alternates": [],
+   "rows": 69,
+   "tabs": [
+    "Audio - Amps",
+    "Audio - Speakers",
+    "Broadcast"
+   ]
+  },
+  "Seltec": {
+   "action": "import",
+   "supplier": "Seltec",
+   "alternates": [],
+   "rows": 68,
+   "tabs": [
+    "Cable Rolls (Per Meter)",
+    "Hardware"
+   ]
+  },
+  "PAVT": {
+   "action": "import",
+   "supplier": "PAVT",
+   "alternates": [],
+   "rows": 65,
+   "tabs": [
+    "Audio - Amps",
+    "Audio - DSP",
+    "Audio - Microphones",
+    "Audio - Speakers",
+    "Switching & Distribution"
+   ]
+  },
+  "Vitec": {
+   "action": "import",
+   "supplier": "Vitec",
+   "alternates": [],
+   "rows": 62,
+   "tabs": [
+    "Signage & IPTV"
+   ]
+  },
+  "NAS Solutions": {
+   "action": "import",
+   "supplier": "NAS Australia",
+   "alternates": [],
+   "rows": 59,
+   "tabs": [
+    "Audio - Amps",
+    "Audio - Speakers"
+   ]
+  },
+  "Lightware": {
+   "action": "import",
+   "supplier": "Lightware",
+   "alternates": [],
+   "rows": 56,
+   "tabs": [
+    "AVoIP",
+    "Cables",
+    "Control",
+    "Hardware",
+    "Switching & Distribution"
+   ]
+  },
+  "Anixter - Middys / Rexel / L&H": {
+   "action": "import",
+   "supplier": "Anixter (Wesco)",
+   "alternates": [],
+   "rows": 56,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Lindy / Midwich / Anixter": {
+   "action": "import",
+   "supplier": "Lindy",
+   "alternates": [
+    "Midwich",
+    "Anixter (Wesco)"
+   ],
+   "rows": 55,
+   "tabs": [
+    "Cables"
+   ]
+  },
+  "Quantum / Alloys / MMT / AVD / XIT": {
+   "action": "import",
+   "supplier": "Quantum Sphere",
+   "alternates": [
+    "Alloys",
+    "MMT",
+    "Audio Visual Distributors",
+    "XIT"
+   ],
+   "rows": 54,
+   "tabs": [
+    "Projectors"
+   ]
+  },
+  "Quantum": {
+   "action": "import",
+   "supplier": "Quantum Sphere",
+   "alternates": [],
+   "rows": 51,
+   "tabs": [
+    "Hardware",
+    "LCD Screens",
+    "Mounts",
+    "Projectors",
+    "Signage & IPTV",
+    "Sources",
+    "Switching & Distribution",
+    "USB",
+    "VC"
+   ]
+  },
+  "Amber Technology": {
+   "action": "import",
+   "supplier": "Amber Technology",
+   "alternates": [],
+   "rows": 49,
+   "tabs": [
+    "Broadcast",
+    "Cables"
+   ]
+  },
+  "Appspace": {
+   "action": "import",
+   "supplier": "Appspace",
+   "alternates": [],
+   "rows": 48,
+   "tabs": [
+    "Signage & IPTV"
+   ]
+  },
+  "Alloys / Westan / Midwich / Dicker": {
+   "action": "import",
+   "supplier": "Alloys",
+   "alternates": [
+    "Westan",
+    "Midwich",
+    "Dicker Data"
+   ],
+   "rows": 48,
+   "tabs": [
+    "Projectors"
+   ]
+  },
+  "TCL / AVAD": {
+   "action": "import",
+   "supplier": "AVAD",
+   "alternates": [],
+   "rows": 47,
+   "tabs": [
+    "Audio - Speakers",
+    "LCD Screens"
+   ]
+  },
+  "UltraLift": {
+   "action": "import",
+   "supplier": "UltraLift",
+   "alternates": [],
+   "rows": 47,
+   "tabs": [
+    "Mounts",
+    "Projectors"
+   ]
+  },
+  "Seltec / Synnex": {
+   "action": "import",
+   "supplier": "Seltec",
+   "alternates": [
+    "Synnex"
+   ],
+   "rows": 46,
+   "tabs": [
+    "Cables",
+    "Hardware",
+    "Networking",
+    "USB"
+   ]
+  },
+  "Quantum / Alloys": {
+   "action": "import",
+   "supplier": "Quantum Sphere",
+   "alternates": [
+    "Alloys"
+   ],
+   "rows": 44,
+   "tabs": [
+    "LCD Screens",
+    "dvLED Display"
+   ]
+  },
+  "Ingram / Dicker / Westcon / MMT": {
+   "action": "import",
+   "supplier": "Ingram Micro",
+   "alternates": [
+    "Dicker Data",
+    "Westcon",
+    "MMT"
+   ],
+   "rows": 44,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "Synnex": {
+   "action": "import",
+   "supplier": "Synnex",
+   "alternates": [],
+   "rows": 43,
+   "tabs": [
+    "Broadcast",
+    "Networking",
+    "Sources",
+    "VC",
+    "dvLED Display"
+   ]
+  },
+  "Jands / Dicker": {
+   "action": "import",
+   "supplier": "Jands",
+   "alternates": [
+    "Dicker Data"
+   ],
+   "rows": 43,
+   "tabs": [
+    "Audio - DSP",
+    "Audio - Microphones"
+   ]
+  },
+  "Midwich / Commsplus": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [
+    "CommsPlus"
+   ],
+   "rows": 43,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Biamp 10%": {
+   "action": "import",
+   "supplier": "Biamp",
+   "scope": "deal-reg-10",
+   "alternates": [],
+   "rows": 42,
+   "tabs": [
+    "Audio - Microphones",
+    "Audio - Speakers",
+    "Room Booking Panels"
+   ]
+  },
+  "Synnex - XIT / Dynamic / AV Supply": {
+   "action": "import",
+   "supplier": "Synnex",
+   "alternates": [],
+   "rows": 41,
+   "tabs": [
+    "Hardware",
+    "LCD Screens",
+    "VC"
+   ]
+  },
+  "Midwich / Quantum / MMT": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [
+    "Quantum Sphere",
+    "MMT"
+   ],
+   "rows": 41,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "Simplex": {
+   "action": "import",
+   "supplier": "Simplex",
+   "alternates": [],
+   "rows": 41,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Jands / Dicker Data": {
+   "action": "import",
+   "supplier": "Jands",
+   "alternates": [
+    "Dicker Data"
+   ],
+   "rows": 40,
+   "tabs": [
+    "Audio - Microphones",
+    "VC"
+   ]
+  },
+  "Blonde Robot": {
+   "action": "import",
+   "supplier": "Blonde Robot",
+   "alternates": [],
+   "rows": 39,
+   "tabs": [
+    "AVoIP",
+    "Broadcast",
+    "Signage & IPTV",
+    "USB"
+   ]
+  },
+  "Atdec / Dicker / MMT / Ingram": {
+   "action": "import",
+   "supplier": "Atdec",
+   "alternates": [
+    "Dicker Data",
+    "MMT",
+    "Ingram Micro"
+   ],
+   "rows": 39,
+   "tabs": [
+    "Mounts",
+    "Projectors"
+   ]
+  },
+  "Lindy / Midwich / Anixter / AVAD": {
+   "action": "import",
+   "supplier": "Lindy",
+   "alternates": [
+    "Midwich",
+    "Anixter (Wesco)",
+    "AVAD"
+   ],
+   "rows": 39,
+   "tabs": [
+    "Cables"
+   ]
+  },
+  "Dicker / Leader / Bluechip": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "Leader Computers",
+    "BlueChip Infotech"
+   ],
+   "rows": 39,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "Riedel": {
+   "action": "import",
+   "supplier": "Riedel",
+   "alternates": [],
+   "rows": 39,
+   "tabs": [
+    "Broadcast"
+   ]
+  },
+  "Technology Core": {
+   "action": "import",
+   "supplier": "Technology Core",
+   "alternates": [],
+   "rows": 37,
+   "tabs": [
+    "LCD Screens",
+    "Mounts",
+    "Sources"
+   ]
+  },
+  "Audio Brands / Audio Logistics": {
+   "action": "import",
+   "supplier": "Audio Brands Australia",
+   "alternates": [
+    "Audio Logistics"
+   ],
+   "rows": 37,
+   "tabs": [
+    "Audio - Microphones"
+   ]
+  },
+  "Amber / ADI (SnapOne) / Jands": {
+   "action": "import",
+   "supplier": "Amber Technology",
+   "alternates": [
+    "ADI Global (Snap One)",
+    "Jands"
+   ],
+   "rows": 36,
+   "tabs": [
+    "Audio - Amps"
+   ]
+  },
+  "Synnex (Crestron / Madison / TAG / Biamp / Dicker / AVD / Audio Brands)": {
+   "action": "import",
+   "supplier": "Synnex",
+   "alternates": [],
+   "rows": 34,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "Quantum / Anixter": {
+   "action": "import",
+   "supplier": "Quantum Sphere",
+   "alternates": [
+    "Anixter (Wesco)"
+   ],
+   "rows": 32,
+   "tabs": [
+    "Signage & IPTV"
+   ]
+  },
+  "Westan / Madison": {
+   "action": "import",
+   "supplier": "Westan",
+   "alternates": [
+    "MadisonAV"
+   ],
+   "rows": 32,
+   "tabs": [
+    "LCD Screens",
+    "Room Booking Panels"
+   ]
+  },
+  "Quantum / NAS": {
+   "action": "import",
+   "supplier": "Quantum Sphere",
+   "alternates": [
+    "NAS Australia"
+   ],
+   "rows": 32,
+   "tabs": [
+    "dvLED Display"
+   ]
+  },
+  "Alectro": {
+   "action": "import",
+   "supplier": "Alectro",
+   "alternates": [],
+   "rows": 32,
+   "tabs": [
+    "Cables",
+    "Hardware"
+   ]
+  },
+  "Leader": {
+   "action": "import",
+   "supplier": "Leader Computers",
+   "alternates": [],
+   "rows": 31,
+   "tabs": [
+    "Hardware",
+    "Networking",
+    "Signage & IPTV"
+   ]
+  },
+  "Dicker Data": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [],
+   "rows": 31,
+   "tabs": [
+    "Cables",
+    "Hardware",
+    "USB",
+    "VC"
+   ]
+  },
+  "Anixter / Uptime Systems": {
+   "action": "import",
+   "supplier": "Anixter (Wesco)",
+   "alternates": [
+    "Uptime Systems"
+   ],
+   "rows": 30,
+   "tabs": [
+    "Cables",
+    "Hardware"
+   ]
+  },
+  "New Magic": {
+   "action": "import",
+   "supplier": "New Magic",
+   "alternates": [],
+   "rows": 29,
+   "tabs": [
+    "Broadcast",
+    "Signage & IPTV",
+    "Switching & Distribution"
+   ]
+  },
+  "NAS / ULA Group": {
+   "action": "import",
+   "supplier": "NAS Australia",
+   "alternates": [
+    "ULA Group"
+   ],
+   "rows": 29,
+   "tabs": [
+    "dvLED Display"
+   ]
+  },
+  "CMS Electracom": {
+   "action": "import",
+   "supplier": "CMS Electracom",
+   "alternates": [],
+   "rows": 29,
+   "tabs": [
+    "Floor Track",
+    "Mounts",
+    "Table Boxes"
+   ]
+  },
+  "Kayell": {
+   "action": "import",
+   "supplier": "Kayell",
+   "alternates": [],
+   "rows": 29,
+   "tabs": [
+    "Broadcast"
+   ]
+  },
+  "MMT": {
+   "action": "import",
+   "supplier": "MMT",
+   "alternates": [],
+   "rows": 28,
+   "tabs": [
+    "AVoIP",
+    "LCD Screens",
+    "Mounts",
+    "Projectors",
+    "Signage & IPTV",
+    "Sources"
+   ]
+  },
+  "ADI Global / Westan": {
+   "action": "import",
+   "supplier": "ADI Global (Snap One)",
+   "alternates": [],
+   "rows": 28,
+   "tabs": [
+    "Audio - Speakers",
+    "Sources"
+   ]
+  },
+  "Sektor": {
+   "action": "import",
+   "supplier": "Sektor",
+   "alternates": [],
+   "rows": 28,
+   "tabs": [
+    "Control",
+    "Sound Masking"
+   ]
+  },
+  "Dicker": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [],
+   "rows": 27,
+   "tabs": [
+    "Cables",
+    "Control",
+    "Hearing Aug",
+    "VC"
+   ]
+  },
+  "Middys / Rexel / L&H": {
+   "action": "import",
+   "supplier": "Middys",
+   "alternates": [
+    "Rexel",
+    "L&H"
+   ],
+   "rows": 27,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Biamp": {
+   "action": "import",
+   "supplier": "Biamp",
+   "alternates": [],
+   "rows": 26,
+   "tabs": [
+    "Audio - Microphones",
+    "Audio - Speakers",
+    "Control",
+    "Room Booking Panels",
+    "Sources",
+    "VC"
+   ]
+  },
+  "Audio Logistics": {
+   "action": "import",
+   "supplier": "Audio Logistics",
+   "alternates": [],
+   "rows": 26,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Davis Legend / Rexel": {
+   "action": "import",
+   "supplier": "Davis Legend",
+   "alternates": [
+    "Rexel"
+   ],
+   "rows": 26,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Quantum / WBT": {
+   "action": "import",
+   "supplier": "Quantum Sphere",
+   "alternates": [
+    "WBT"
+   ],
+   "rows": 25,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "Screen Mounts / Alloys / AVAD": {
+   "action": "import",
+   "supplier": "Screen Mounts",
+   "alternates": [
+    "Alloys",
+    "AVAD"
+   ],
+   "rows": 25,
+   "tabs": [
+    "Mounts"
+   ]
+  },
+  "CMI": {
+   "action": "import",
+   "supplier": "CMI",
+   "alternates": [],
+   "rows": 25,
+   "tabs": [
+    "Audio - Speakers"
+   ]
+  },
+  "Sonova": {
+   "action": "import",
+   "supplier": "Sonova",
+   "alternates": [],
+   "rows": 25,
+   "tabs": [
+    "Hearing Aug"
+   ]
+  },
+  "Access Communications": {
+   "action": "import",
+   "supplier": "Access Communications",
+   "alternates": [],
+   "rows": 25,
+   "tabs": [
+    "Cable Rolls (Per Meter)",
+    "Cables"
+   ]
+  },
+  "VisionChart": {
+   "action": "import",
+   "supplier": "VisionChart",
+   "alternates": [],
+   "rows": 25,
+   "tabs": [
+    "Sound Masking"
+   ]
+  },
+  "NEC": {
+   "action": "import",
+   "supplier": "NEC",
+   "alternates": [],
+   "rows": 24,
+   "tabs": [
+    "dvLED Display"
+   ]
+  },
+  "AVW Broadcast": {
+   "action": "import",
+   "supplier": "AVW Broadcast",
+   "alternates": [],
+   "rows": 24,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Elgee": {
+   "action": "import",
+   "supplier": "Elgee",
+   "alternates": [],
+   "rows": 24,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "MFB": {
+   "action": "import",
+   "supplier": "MFB",
+   "alternates": [],
+   "rows": 24,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Catchbox": {
+   "action": "import",
+   "supplier": "Catchbox",
+   "alternates": [],
+   "rows": 23,
+   "tabs": [
+    "Audio - Microphones"
+   ]
+  },
+  "Group Tech": {
+   "action": "import",
+   "supplier": "Group Technologies",
+   "alternates": [],
+   "rows": 23,
+   "tabs": [
+    "Audio - Speakers",
+    "Cables"
+   ]
+  },
+  "Dicker / Synnex": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "Synnex"
+   ],
+   "rows": 23,
+   "tabs": [
+    "Hardware",
+    "Networking"
+   ]
+  },
+  "Quantum / AVAD": {
+   "action": "import",
+   "supplier": "Quantum Sphere",
+   "alternates": [
+    "AVAD"
+   ],
+   "rows": 22,
+   "tabs": [
+    "Audio - Speakers",
+    "LCD Screens"
+   ]
+  },
+  "Midwich / Quantum": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [
+    "Quantum Sphere"
+   ],
+   "rows": 22,
+   "tabs": [
+    "Projectors"
+   ]
+  },
+  "Vision Chart": {
+   "action": "import",
+   "supplier": "VisionChart",
+   "alternates": [],
+   "rows": 22,
+   "tabs": [
+    "Projectors"
+   ]
+  },
+  "RS Components": {
+   "action": "import",
+   "supplier": "RS Components",
+   "alternates": [],
+   "rows": 22,
+   "tabs": [
+    "Cable Rolls (Per Meter)",
+    "Cables"
+   ]
+  },
+  "Pacific Data / Anixter": {
+   "action": "import",
+   "supplier": "Pacific Datacom",
+   "alternates": [
+    "Anixter (Wesco)"
+   ],
+   "rows": 22,
+   "tabs": [
+    "Cable Rolls (Per Meter)"
+   ]
+  },
+  "Alloys / Quantum / Midwich / MMT": {
+   "action": "import",
+   "supplier": "Alloys",
+   "alternates": [
+    "Quantum Sphere",
+    "Midwich",
+    "MMT"
+   ],
+   "rows": 21,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "Alloys": {
+   "action": "import",
+   "supplier": "Alloys",
+   "alternates": [],
+   "rows": 21,
+   "tabs": [
+    "Hearing Aug",
+    "LCD Screens",
+    "Mounts",
+    "VC"
+   ]
+  },
+  "Ingram": {
+   "action": "import",
+   "supplier": "Ingram Micro",
+   "alternates": [],
+   "rows": 21,
+   "tabs": [
+    "Control",
+    "Hardware",
+    "Networking",
+    "USB",
+    "VC"
+   ]
+  },
+  "AV Supply": {
+   "action": "import",
+   "supplier": "AV Supply",
+   "alternates": [],
+   "rows": 21,
+   "tabs": [
+    "Control",
+    "Room Booking Panels"
+   ]
+  },
+  "TouchBoard": {
+   "action": "import",
+   "supplier": "TouchBoard",
+   "alternates": [],
+   "rows": 21,
+   "tabs": [
+    "Mounts"
+   ]
+  },
+  "Podion": {
+   "action": "import",
+   "supplier": "Podion",
+   "alternates": [],
+   "rows": 21,
+   "tabs": [
+    "Hardware",
+    "Mounts"
+   ]
+  },
+  "Dicker / Bluechip / Ingram / Anixter": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "BlueChip Infotech",
+    "Ingram Micro",
+    "Anixter (Wesco)"
+   ],
+   "rows": 21,
+   "tabs": [
+    "Room Booking Panels",
+    "VC"
+   ]
+  },
+  "Synnex / Anixter / Ingram / Dicker / Leader / Bluechip": {
+   "action": "import",
+   "supplier": "Synnex",
+   "alternates": [
+    "Anixter (Wesco)",
+    "Ingram Micro",
+    "Dicker Data",
+    "Leader Computers",
+    "BlueChip Infotech"
+   ],
+   "rows": 21,
+   "tabs": [
+    "Hardware",
+    "Switching & Distribution",
+    "USB"
+   ]
+  },
+  "AVAD / Quantum / Alloys / MMT / XIT": {
+   "action": "import",
+   "supplier": "AVAD",
+   "alternates": [
+    "Quantum Sphere",
+    "Alloys",
+    "MMT",
+    "XIT"
+   ],
+   "rows": 21,
+   "tabs": [
+    "Broadcast",
+    "VC"
+   ]
+  },
+  "Blue Gum Joinery": {
+   "action": "import",
+   "supplier": "Blue Gum Joinery",
+   "alternates": [],
+   "rows": 21,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Midwich / Alloys / Quantum / MMT": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [
+    "Alloys",
+    "Quantum Sphere",
+    "MMT"
+   ],
+   "rows": 20,
+   "tabs": [
+    "Projectors"
+   ]
+  },
+  "Audio Logistics / Audio Source / AVICO": {
+   "action": "import",
+   "supplier": "Audio Logistics",
+   "alternates": [
+    "Audio Source",
+    "AVICO"
+   ],
+   "rows": 20,
+   "tabs": [
+    "Audio - DSP"
+   ]
+  },
+  "Madison / 45dB": {
+   "action": "import",
+   "supplier": "MadisonAV",
+   "alternates": [],
+   "rows": 20,
+   "tabs": [
+    "Sound Masking"
+   ]
+  },
+  "Audio Logistics / Audio Source": {
+   "action": "import",
+   "supplier": "Audio Logistics",
+   "alternates": [
+    "Audio Source"
+   ],
+   "rows": 19,
+   "tabs": [
+    "Audio - Amps",
+    "Audio - Microphones",
+    "Sources"
+   ]
+  },
+  "Middys": {
+   "action": "import",
+   "supplier": "Middys",
+   "alternates": [],
+   "rows": 19,
+   "tabs": [
+    "Cable Rolls (Per Meter)"
+   ]
+  },
+  "APS / Madison / Anixter": {
+   "action": "import",
+   "supplier": "APS",
+   "alternates": [
+    "MadisonAV",
+    "Anixter (Wesco)"
+   ],
+   "rows": 19,
+   "tabs": [
+    "Cable Rolls (Per Meter)"
+   ]
+  },
+  "The Resource Corp": {
+   "action": "import",
+   "supplier": "The Resource Corp",
+   "alternates": [],
+   "rows": 19,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "InTouch Screens": {
+   "action": "import",
+   "supplier": "InTouch Screens",
+   "alternates": [],
+   "rows": 18,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "Ingram /Commsplus / Leading Solutions/Auroz": {
+   "action": "import",
+   "supplier": "Ingram Micro",
+   "alternates": [],
+   "rows": 18,
+   "tabs": [
+    "Control",
+    "Mounts"
+   ]
+  },
+  "Pacific Data / Rexel": {
+   "action": "import",
+   "supplier": "Pacific Datacom",
+   "alternates": [
+    "Rexel"
+   ],
+   "rows": 18,
+   "tabs": [
+    "Cable Rolls (Per Meter)"
+   ]
+  },
+  "Ingram / MMT / L & H (Pac data)": {
+   "action": "import",
+   "supplier": "Ingram Micro",
+   "alternates": [
+    "MMT",
+    "L&H"
+   ],
+   "rows": 18,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "Titan AV": {
+   "action": "import",
+   "supplier": "Titan AV",
+   "alternates": [],
+   "rows": 18,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "AVD / Dicker": {
+   "action": "import",
+   "supplier": "Audio Visual Distributors",
+   "alternates": [
+    "Dicker Data"
+   ],
+   "rows": 17,
+   "tabs": [
+    "Sources",
+    "VC"
+   ]
+  },
+  "APS Industrial": {
+   "action": "import",
+   "supplier": "APS Industrial",
+   "alternates": [],
+   "rows": 17,
+   "tabs": [
+    "Cable Rolls (Per Meter)"
+   ]
+  },
+  "Alloys / Ingram": {
+   "action": "import",
+   "supplier": "Alloys",
+   "alternates": [
+    "Ingram Micro"
+   ],
+   "rows": 17,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "Anixter / AV Supply": {
+   "action": "import",
+   "supplier": "Anixter (Wesco)",
+   "alternates": [
+    "AV Supply"
+   ],
+   "rows": 17,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Avation": {
+   "action": "import",
+   "supplier": "Avation",
+   "alternates": [],
+   "rows": 17,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "AV Supply / AP Tech": {
+   "action": "import",
+   "supplier": "AV Supply",
+   "alternates": [
+    "AP Tech"
+   ],
+   "rows": 16,
+   "tabs": [
+    "AVoIP",
+    "Audio - Amps",
+    "Switching & Distribution",
+    "dvLED Display"
+   ]
+  },
+  "Network Devices": {
+   "action": "import",
+   "supplier": "Network Devices",
+   "alternates": [],
+   "rows": 16,
+   "tabs": [
+    "Audio - DSP",
+    "Control",
+    "Room Booking Panels",
+    "Switching & Distribution"
+   ]
+  },
+  "Octopus TV": {
+   "action": "import",
+   "supplier": "Octopus TV",
+   "alternates": [],
+   "rows": 16,
+   "tabs": [
+    "Mounts"
+   ]
+  },
+  "Convergent Tech": {
+   "action": "import",
+   "supplier": "Convergent Technologies",
+   "alternates": [],
+   "rows": 16,
+   "tabs": [
+    "Audio - Speakers"
+   ]
+  },
+  "Joan": {
+   "action": "import",
+   "supplier": "Joan",
+   "alternates": [],
+   "rows": 16,
+   "tabs": [
+    "Room Booking Panels"
+   ]
+  },
+  "CBS / Amber": {
+   "action": "import",
+   "supplier": "CBS",
+   "alternates": [
+    "Amber Technology"
+   ],
+   "rows": 16,
+   "tabs": [
+    "Cables"
+   ]
+  },
+  "Factory Sound": {
+   "action": "import",
+   "supplier": "Factory Sound",
+   "alternates": [],
+   "rows": 16,
+   "tabs": [
+    "TEMP - GCEC Cables"
+   ]
+  },
+  "DONT ORDER": {
+   "action": "skip",
+   "note": "marked do-not-order in the BoM",
+   "rows": 15,
+   "tabs": [
+    "Cables",
+    "Control",
+    "Hearing Aug",
+    "Sources",
+    "VC"
+   ]
+  },
+  "(blank)": {
+   "action": "skip",
+   "note": "no vendor recorded — needs manual assignment",
+   "rows": 15,
+   "tabs": [
+    "Audio - Amps",
+    "Cables",
+    "Hearing Aug",
+    "Signage & IPTV",
+    "TEMP - GCEC Cables"
+   ]
+  },
+  "Lindy / Midwich / Anixter / AVAD / DSTECH": {
+   "action": "import",
+   "supplier": "Lindy",
+   "alternates": [
+    "Midwich",
+    "Anixter (Wesco)",
+    "AVAD",
+    "DSTECH"
+   ],
+   "rows": 15,
+   "tabs": [
+    "Cables"
+   ]
+  },
+  "Alloys / Midwich / Quantum / MMT": {
+   "action": "import",
+   "supplier": "Alloys",
+   "alternates": [
+    "Midwich",
+    "Quantum Sphere",
+    "MMT"
+   ],
+   "rows": 15,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "4Cabling": {
+   "action": "import",
+   "supplier": "4Cabling",
+   "alternates": [],
+   "rows": 15,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Octek / Ingram": {
+   "action": "import",
+   "supplier": "Octek",
+   "alternates": [
+    "Ingram Micro"
+   ],
+   "rows": 14,
+   "tabs": [
+    "Signage & IPTV"
+   ]
+  },
+  "OPIE": {
+   "action": "import",
+   "supplier": "OPIE",
+   "alternates": [],
+   "rows": 14,
+   "tabs": [
+    "Hardware",
+    "Projectors"
+   ]
+  },
+  "CBS": {
+   "action": "import",
+   "supplier": "CBS",
+   "alternates": [],
+   "rows": 14,
+   "tabs": [
+    "Mounts",
+    "TEMP - GCEC Cables"
+   ]
+  },
+  "Ingram / Commsplus / Leading Solutions / Auroz": {
+   "action": "import",
+   "supplier": "Ingram Micro",
+   "alternates": [],
+   "rows": 14,
+   "tabs": [
+    "Mounts"
+   ]
+  },
+  "Dicker / Ingram / Bluechip": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "Ingram Micro",
+    "BlueChip Infotech"
+   ],
+   "rows": 14,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Amber / CommsPlus": {
+   "action": "import",
+   "supplier": "Amber Technology",
+   "alternates": [
+    "CommsPlus"
+   ],
+   "rows": 14,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "WBT": {
+   "action": "import",
+   "supplier": "WBT",
+   "alternates": [],
+   "rows": 13,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "Midwich / WBT": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [
+    "WBT"
+   ],
+   "rows": 13,
+   "tabs": [
+    "dvLED Display"
+   ]
+  },
+  "Leading Solutions": {
+   "action": "import",
+   "supplier": "Leading Solutions",
+   "alternates": [],
+   "rows": 13,
+   "tabs": [
+    "Mounts",
+    "VC"
+   ]
+  },
+  "Dicker / Ingram / Leader / L&H / Rexel": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "Ingram Micro",
+    "Leader Computers",
+    "L&H",
+    "Rexel"
+   ],
+   "rows": 13,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "CableSafe / Radio Parts": {
+   "action": "import",
+   "supplier": "CableSafe",
+   "alternates": [
+    "Radio Parts"
+   ],
+   "rows": 13,
+   "tabs": [
+    "Floor Track"
+   ]
+  },
+  "SONY SPECIAL REQUEST": {
+   "action": "import",
+   "supplier": "Sony",
+   "scope": "special-request",
+   "alternates": [],
+   "rows": 12,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "Dicker / BCIT": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [],
+   "rows": 12,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "Vitek / Midwich": {
+   "action": "import",
+   "supplier": "Vitec",
+   "alternates": [
+    "Midwich"
+   ],
+   "rows": 12,
+   "tabs": [
+    "dvLED Display"
+   ]
+  },
+  "WhiteboardsRUs": {
+   "action": "import",
+   "supplier": "WhiteboardsRUs",
+   "alternates": [],
+   "rows": 12,
+   "tabs": [
+    "Projectors"
+   ]
+  },
+  "Ingram / Dicker (DAS)": {
+   "action": "import",
+   "supplier": "Ingram Micro",
+   "alternates": [],
+   "rows": 12,
+   "tabs": [
+    "Audio - Speakers"
+   ]
+  },
+  "Madison / Audio Brands": {
+   "action": "import",
+   "supplier": "MadisonAV",
+   "alternates": [
+    "Audio Brands Australia"
+   ],
+   "rows": 12,
+   "tabs": [
+    "Hearing Aug"
+   ]
+  },
+  "Amber / Bayview": {
+   "action": "import",
+   "supplier": "Amber Technology",
+   "alternates": [
+    "Bayview"
+   ],
+   "rows": 12,
+   "tabs": [
+    "Cable Rolls (Per Meter)"
+   ]
+  },
+  "Ingram / Synnex": {
+   "action": "import",
+   "supplier": "Ingram Micro",
+   "alternates": [
+    "Synnex"
+   ],
+   "rows": 12,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Midwich / Dicker": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [
+    "Dicker Data"
+   ],
+   "rows": 12,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Dicker / Ingram / Synnex / MMT": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "Ingram Micro",
+    "Synnex",
+    "MMT"
+   ],
+   "rows": 12,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Techbox": {
+   "action": "import",
+   "supplier": "Techbox",
+   "alternates": [],
+   "rows": 12,
+   "tabs": [
+    "Lighting"
+   ]
+  },
+  "Swamp Industries": {
+   "action": "import",
+   "supplier": "Swamp Industries",
+   "alternates": [],
+   "rows": 12,
+   "tabs": [
+    "TEMP - GCEC Cables"
+   ]
+  },
+  "Atdec / MMT / Dicker / Ingram": {
+   "action": "import",
+   "supplier": "Atdec",
+   "alternates": [
+    "MMT",
+    "Dicker Data",
+    "Ingram Micro"
+   ],
+   "rows": 11,
+   "tabs": [
+    "Mounts"
+   ]
+  },
+  "AVTEQ": {
+   "action": "import",
+   "supplier": "AVTEQ",
+   "alternates": [],
+   "rows": 11,
+   "tabs": [
+    "Mounts",
+    "VC"
+   ]
+  },
+  "Tradezone / OSA / Madison": {
+   "action": "import",
+   "supplier": "TradeZone",
+   "alternates": [
+    "OSA",
+    "MadisonAV"
+   ],
+   "rows": 11,
+   "tabs": [
+    "Cable Rolls (Per Meter)"
+   ]
+  },
+  "Anixter / Dicker (DAS) / Ingram": {
+   "action": "import",
+   "supplier": "Anixter (Wesco)",
+   "alternates": [
+    "Dicker Data",
+    "Ingram Micro"
+   ],
+   "rows": 11,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "Ingram - JB Hi-Fi / Officeworks": {
+   "action": "import",
+   "supplier": "Ingram Micro",
+   "alternates": [],
+   "rows": 10,
+   "tabs": [
+    "Cables",
+    "Control",
+    "Sources"
+   ]
+  },
+  "Avico / Leading Solutions": {
+   "action": "import",
+   "supplier": "Avico",
+   "alternates": [
+    "Leading Solutions"
+   ],
+   "rows": 10,
+   "tabs": [
+    "Room Booking Panels",
+    "Signage & IPTV"
+   ]
+  },
+  "AP Tech": {
+   "action": "import",
+   "supplier": "AP Tech",
+   "alternates": [],
+   "rows": 10,
+   "tabs": [
+    "Signage & IPTV"
+   ]
+  },
+  "Alloys / MMT / Quantum": {
+   "action": "import",
+   "supplier": "Alloys",
+   "alternates": [
+    "MMT",
+    "Quantum Sphere"
+   ],
+   "rows": 10,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "Quantum Sphere / Alloys / Dicker / Midwich": {
+   "action": "import",
+   "supplier": "Quantum Sphere",
+   "alternates": [
+    "Alloys",
+    "Dicker Data",
+    "Midwich"
+   ],
+   "rows": 10,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "Midwich / Quantum / Alloys": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [
+    "Quantum Sphere",
+    "Alloys"
+   ],
+   "rows": 10,
+   "tabs": [
+    "dvLED Display"
+   ]
+  },
+  "Avation / AV Supply": {
+   "action": "import",
+   "supplier": "Avation",
+   "alternates": [
+    "AV Supply"
+   ],
+   "rows": 10,
+   "tabs": [
+    "Mounts"
+   ]
+  },
+  "1st Class Metals": {
+   "action": "import",
+   "supplier": "1st Class Metals",
+   "alternates": [],
+   "rows": 10,
+   "tabs": [
+    "Mounts"
+   ]
+  },
+  "AVAD / Masimo": {
+   "action": "import",
+   "supplier": "AVAD",
+   "alternates": [],
+   "rows": 10,
+   "tabs": [
+    "Audio - Amps",
+    "Audio - Speakers"
+   ]
+  },
+  "John Barry / Kayell / Lemac / Videocraft / Videoguys": {
+   "action": "import",
+   "supplier": "John Barry",
+   "alternates": [
+    "Kayell",
+    "Lemac",
+    "Videocraft",
+    "Videoguys"
+   ],
+   "rows": 10,
+   "tabs": [
+    "Audio - Microphones"
+   ]
+  },
+  "Yamaha / Amber": {
+   "action": "import",
+   "supplier": "Yamaha",
+   "alternates": [],
+   "rows": 10,
+   "tabs": [
+    "Audio - Microphones"
+   ]
+  },
+  "Madison / Corsair": {
+   "action": "import",
+   "supplier": "MadisonAV",
+   "alternates": [
+    "Corsair"
+   ],
+   "rows": 10,
+   "tabs": [
+    "Audio - DSP"
+   ]
+  },
+  "ASL": {
+   "action": "import",
+   "supplier": "ASL",
+   "alternates": [],
+   "rows": 10,
+   "tabs": [
+    "Lighting"
+   ]
+  },
+  "Audacity": {
+   "action": "import",
+   "supplier": "Audacity",
+   "alternates": [],
+   "rows": 9,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "Soundmachine": {
+   "action": "import",
+   "supplier": "Soundmachine",
+   "alternates": [],
+   "rows": 9,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "AV Supply / Alloys": {
+   "action": "import",
+   "supplier": "AV Supply",
+   "alternates": [
+    "Alloys"
+   ],
+   "rows": 9,
+   "tabs": [
+    "Projectors"
+   ]
+  },
+  "ELB": {
+   "action": "import",
+   "supplier": "ELB",
+   "alternates": [],
+   "rows": 9,
+   "tabs": [
+    "Projectors"
+   ]
+  },
+  "Synnex / Quantum": {
+   "action": "import",
+   "supplier": "Synnex",
+   "alternates": [
+    "Quantum Sphere"
+   ],
+   "rows": 9,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "Ingram / Dicker": {
+   "action": "import",
+   "supplier": "Ingram Micro",
+   "alternates": [
+    "Dicker Data"
+   ],
+   "rows": 9,
+   "tabs": [
+    "Hardware",
+    "VC"
+   ]
+  },
+  "AVAD": {
+   "action": "import",
+   "supplier": "AVAD",
+   "alternates": [],
+   "rows": 9,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Madison Tech": {
+   "action": "import",
+   "supplier": "MadisonAV",
+   "alternates": [],
+   "rows": 9,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "BVND / CLS": {
+   "action": "import",
+   "supplier": "BVND",
+   "alternates": [
+    "CLS"
+   ],
+   "rows": 9,
+   "tabs": [
+    "TEMP - GCEC Cables"
+   ]
+  },
+  "Bluechip / Madison / Leader / Dicker / BTC": {
+   "action": "import",
+   "supplier": "BlueChip Infotech",
+   "alternates": [
+    "MadisonAV",
+    "Leader Computers",
+    "Dicker Data",
+    "BTC"
+   ],
+   "rows": 8,
+   "tabs": [
+    "LCD Screens",
+    "Sources"
+   ]
+  },
+  "TBC": {
+   "action": "skip",
+   "note": "vendor still to be confirmed in the BoM",
+   "rows": 8,
+   "tabs": [
+    "Signage & IPTV",
+    "VC"
+   ]
+  },
+  "JED": {
+   "action": "import",
+   "supplier": "JED",
+   "alternates": [],
+   "rows": 8,
+   "tabs": [
+    "Control"
+   ]
+  },
+  "Atdec / Dicker / MMT / Ingram / WBT": {
+   "action": "import",
+   "supplier": "Atdec",
+   "alternates": [
+    "Dicker Data",
+    "MMT",
+    "Ingram Micro",
+    "WBT"
+   ],
+   "rows": 8,
+   "tabs": [
+    "Mounts"
+   ]
+  },
+  "Assetek": {
+   "action": "import",
+   "supplier": "Assetek",
+   "alternates": [],
+   "rows": 8,
+   "tabs": [
+    "Mounts"
+   ]
+  },
+  "SealTV": {
+   "action": "import",
+   "supplier": "SealTV",
+   "alternates": [],
+   "rows": 8,
+   "tabs": [
+    "Mounts"
+   ]
+  },
+  "Seltec / Rexel": {
+   "action": "import",
+   "supplier": "Seltec",
+   "alternates": [
+    "Rexel"
+   ],
+   "rows": 8,
+   "tabs": [
+    "Cable Rolls (Per Meter)"
+   ]
+  },
+  "Madison / Radio Parts": {
+   "action": "import",
+   "supplier": "MadisonAV",
+   "alternates": [
+    "Radio Parts"
+   ],
+   "rows": 8,
+   "tabs": [
+    "Cable Rolls (Per Meter)"
+   ]
+  },
+  "Radio Parts / Altronics": {
+   "action": "import",
+   "supplier": "Radio Parts",
+   "alternates": [
+    "Altronics"
+   ],
+   "rows": 8,
+   "tabs": [
+    "Cables"
+   ]
+  },
+  "Bluechip / Dicker": {
+   "action": "import",
+   "supplier": "BlueChip Infotech",
+   "alternates": [
+    "Dicker Data"
+   ],
+   "rows": 8,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "Synnex/Madison": {
+   "action": "import",
+   "supplier": "Synnex",
+   "alternates": [],
+   "rows": 8,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "AVE": {
+   "action": "import",
+   "supplier": "AVE",
+   "alternates": [],
+   "rows": 8,
+   "tabs": [
+    "Broadcast"
+   ]
+  },
+  "John Barry": {
+   "action": "import",
+   "supplier": "John Barry",
+   "alternates": [],
+   "rows": 8,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "CLS": {
+   "action": "import",
+   "supplier": "CLS",
+   "alternates": [],
+   "rows": 8,
+   "tabs": [
+    "TEMP - GCEC Cables"
+   ]
+  },
+  "Tech Core": {
+   "action": "import",
+   "supplier": "Technology Core",
+   "alternates": [],
+   "rows": 7,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "Alloys / Quantum / MMT / AVAD": {
+   "action": "import",
+   "supplier": "Alloys",
+   "alternates": [
+    "Quantum Sphere",
+    "MMT",
+    "AVAD"
+   ],
+   "rows": 7,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "ULA Group": {
+   "action": "import",
+   "supplier": "ULA Group",
+   "alternates": [],
+   "rows": 7,
+   "tabs": [
+    "dvLED Display"
+   ]
+  },
+  "Fosh / BTC": {
+   "action": "import",
+   "supplier": "Fosh",
+   "alternates": [
+    "BTC"
+   ],
+   "rows": 7,
+   "tabs": [
+    "Control"
+   ]
+  },
+  "Alloys / Westan": {
+   "action": "import",
+   "supplier": "Alloys",
+   "alternates": [
+    "Westan"
+   ],
+   "rows": 7,
+   "tabs": [
+    "Projectors"
+   ]
+  },
+  "Alloys / Westan / Midwich": {
+   "action": "import",
+   "supplier": "Alloys",
+   "alternates": [
+    "Westan",
+    "Midwich"
+   ],
+   "rows": 7,
+   "tabs": [
+    "Projectors"
+   ]
+  },
+  "DON’T ORDER": {
+   "action": "skip",
+   "note": "marked do-not-order in the BoM",
+   "rows": 7,
+   "tabs": [
+    "Audio - DSP"
+   ]
+  },
+  "Bluechip / Madison / Leader / Dicker / Midwich": {
+   "action": "import",
+   "supplier": "BlueChip Infotech",
+   "alternates": [
+    "MadisonAV",
+    "Leader Computers",
+    "Dicker Data",
+    "Midwich"
+   ],
+   "rows": 7,
+   "tabs": [
+    "Room Booking Panels"
+   ]
+  },
+  "AWM / Rexel / Middys": {
+   "action": "import",
+   "supplier": "AWM",
+   "alternates": [
+    "Rexel",
+    "Middys"
+   ],
+   "rows": 7,
+   "tabs": [
+    "Cable Rolls (Per Meter)",
+    "Hardware"
+   ]
+  },
+  "Midwich / Quantum / Avation": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [
+    "Quantum Sphere",
+    "Avation"
+   ],
+   "rows": 7,
+   "tabs": [
+    "AVoIP"
+   ]
+  },
+  "Comms Plus / Alloys": {
+   "action": "import",
+   "supplier": "CommsPlus",
+   "alternates": [
+    "Alloys"
+   ],
+   "rows": 7,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "AVW Broadcast Group": {
+   "action": "import",
+   "supplier": "AVW Broadcast",
+   "alternates": [],
+   "rows": 7,
+   "tabs": [
+    "Broadcast"
+   ]
+  },
+  "Midwich / Westan": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [
+    "Westan"
+   ],
+   "rows": 6,
+   "tabs": [
+    "Signage & IPTV"
+   ]
+  },
+  "Korbyt": {
+   "action": "import",
+   "supplier": "Korbyt",
+   "alternates": [],
+   "rows": 6,
+   "tabs": [
+    "Signage & IPTV"
+   ]
+  },
+  "Synnex / WBT": {
+   "action": "import",
+   "supplier": "Synnex",
+   "alternates": [
+    "WBT"
+   ],
+   "rows": 6,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "WBT / Midwich": {
+   "action": "import",
+   "supplier": "WBT",
+   "alternates": [
+    "Midwich"
+   ],
+   "rows": 6,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "Convergent Technologies": {
+   "action": "import",
+   "supplier": "Convergent Technologies",
+   "alternates": [],
+   "rows": 6,
+   "tabs": [
+    "Control"
+   ]
+  },
+  "SOHO Design": {
+   "action": "import",
+   "supplier": "SOHO Design",
+   "alternates": [],
+   "rows": 6,
+   "tabs": [
+    "Audio - Speakers"
+   ]
+  },
+  "Anixter - AWM / L&H / Pacific Data / Middys": {
+   "action": "import",
+   "supplier": "Anixter (Wesco)",
+   "alternates": [],
+   "rows": 6,
+   "tabs": [
+    "Cable Rolls (Per Meter)"
+   ]
+  },
+  "Video Craft / Lemac": {
+   "action": "import",
+   "supplier": "Video Craft",
+   "alternates": [
+    "Lemac"
+   ],
+   "rows": 6,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Corsair / AVD": {
+   "action": "import",
+   "supplier": "Corsair",
+   "alternates": [
+    "Audio Visual Distributors"
+   ],
+   "rows": 6,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "All Interactive / Broadcast Bruce": {
+   "action": "import",
+   "supplier": "All Interactive",
+   "alternates": [
+    "Broadcast Bruce"
+   ],
+   "rows": 6,
+   "tabs": [
+    "Broadcast"
+   ]
+  },
+  "Davis Legend / Rexel / Middys": {
+   "action": "import",
+   "supplier": "Davis Legend",
+   "alternates": [
+    "Rexel",
+    "Middys"
+   ],
+   "rows": 6,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "vir2store": {
+   "action": "import",
+   "supplier": "vir2store",
+   "alternates": [],
+   "rows": 5,
+   "tabs": [
+    "Signage & IPTV"
+   ]
+  },
+  "Vitec / Midwich": {
+   "action": "import",
+   "supplier": "Vitec",
+   "alternates": [
+    "Midwich"
+   ],
+   "rows": 5,
+   "tabs": [
+    "Signage & IPTV",
+    "dvLED Display"
+   ]
+  },
+  "AVAD / Yamaha": {
+   "action": "import",
+   "supplier": "AVAD",
+   "alternates": [],
+   "rows": 5,
+   "tabs": [
+    "Audio - Speakers"
+   ]
+  },
+  "TradeZone / OSA": {
+   "action": "import",
+   "supplier": "TradeZone",
+   "alternates": [
+    "OSA"
+   ],
+   "rows": 5,
+   "tabs": [
+    "Cables"
+   ]
+  },
+  "Bluechip": {
+   "action": "import",
+   "supplier": "BlueChip Infotech",
+   "alternates": [],
+   "rows": 5,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Dicker / Ingram Micro / Bluechip": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "Ingram Micro",
+    "BlueChip Infotech"
+   ],
+   "rows": 5,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Blonde Robot/Midwich": {
+   "action": "import",
+   "supplier": "Blonde Robot",
+   "alternates": [],
+   "rows": 5,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Lectern Australia": {
+   "action": "import",
+   "supplier": "Lectern Australia",
+   "alternates": [],
+   "rows": 5,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Showtechnix / Cases.com.au": {
+   "action": "import",
+   "supplier": "Showtechnix",
+   "alternates": [
+    "Cases.com.au"
+   ],
+   "rows": 5,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Transit Pak": {
+   "action": "import",
+   "supplier": "Transit Pak",
+   "alternates": [],
+   "rows": 5,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Computer Support Systems (CSS)": {
+   "action": "import",
+   "supplier": "Computer Support Systems (CSS)",
+   "alternates": [],
+   "rows": 5,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "ADI (Snap One)": {
+   "action": "import",
+   "supplier": "ADI Global (Snap One)",
+   "alternates": [],
+   "rows": 5,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Leader Access Hire": {
+   "action": "import",
+   "supplier": "Leader Access Hire",
+   "alternates": [],
+   "rows": 5,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 16 Cutout": {
+   "action": "import",
+   "supplier": "SKS Custom",
+   "alternates": [],
+   "note": "internal fabrication; panel spec lives in the vendor string: SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 16 Cutout",
+   "rows": 5,
+   "tabs": [
+    "TEMP - GCEC Panels & Patch"
+   ]
+  },
+  "Store DJ": {
+   "action": "import",
+   "supplier": "Store DJ",
+   "alternates": [],
+   "note": "retail channel",
+   "rows": 5,
+   "tabs": [
+    "TEMP - GCEC Cables"
+   ]
+  },
+  "DJ City": {
+   "action": "import",
+   "supplier": "DJ City",
+   "alternates": [],
+   "note": "retail channel",
+   "rows": 5,
+   "tabs": [
+    "TEMP - GCEC Cables"
+   ]
+  },
+  "Synnex / JB Hi-Fi / Officeworks": {
+   "action": "import",
+   "supplier": "Synnex",
+   "alternates": [
+    "JB Hi-Fi",
+    "Officeworks"
+   ],
+   "rows": 4,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "Radio Parts / Jands": {
+   "action": "import",
+   "supplier": "Radio Parts",
+   "alternates": [
+    "Jands"
+   ],
+   "rows": 4,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "MMT / Ingram": {
+   "action": "import",
+   "supplier": "MMT",
+   "alternates": [
+    "Ingram Micro"
+   ],
+   "rows": 4,
+   "tabs": [
+    "Signage & IPTV"
+   ]
+  },
+  "Synnex / Ingram": {
+   "action": "import",
+   "supplier": "Synnex",
+   "alternates": [
+    "Ingram Micro"
+   ],
+   "rows": 4,
+   "tabs": [
+    "Signage & IPTV"
+   ]
+  },
+  "Unilumin / AVAD": {
+   "action": "import",
+   "supplier": "AVAD",
+   "alternates": [],
+   "rows": 4,
+   "tabs": [
+    "dvLED Display"
+   ]
+  },
+  "Leeder": {
+   "action": "import",
+   "supplier": "Leader Computers",
+   "alternates": [],
+   "rows": 4,
+   "tabs": [
+    "Mounts"
+   ]
+  },
+  "AV Supply Group / Madison": {
+   "action": "import",
+   "supplier": "AV Supply Group",
+   "alternates": [
+    "MadisonAV"
+   ],
+   "rows": 4,
+   "tabs": [
+    "Audio - Microphones"
+   ]
+  },
+  "WRE / Radio Parts": {
+   "action": "import",
+   "supplier": "WRE",
+   "alternates": [
+    "Radio Parts"
+   ],
+   "rows": 4,
+   "tabs": [
+    "Audio - Speakers"
+   ]
+  },
+  "Hearing Aug Australia": {
+   "action": "import",
+   "supplier": "Hearing Aug Australia",
+   "alternates": [],
+   "rows": 4,
+   "tabs": [
+    "Hearing Aug"
+   ]
+  },
+  "BTS Australia": {
+   "action": "import",
+   "supplier": "BTS Australia",
+   "alternates": [],
+   "rows": 4,
+   "tabs": [
+    "Hearing Aug"
+   ]
+  },
+  "Braille Co": {
+   "action": "import",
+   "supplier": "Braille Co",
+   "alternates": [],
+   "rows": 4,
+   "tabs": [
+    "Hearing Aug"
+   ]
+  },
+  "Avico": {
+   "action": "import",
+   "supplier": "Avico",
+   "alternates": [],
+   "rows": 4,
+   "tabs": [
+    "Room Booking Panels"
+   ]
+  },
+  "Skedda": {
+   "action": "import",
+   "supplier": "Skedda",
+   "alternates": [],
+   "rows": 4,
+   "tabs": [
+    "Room Booking Panels"
+   ]
+  },
+  "Dicker / Synnex / AVD": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "Synnex",
+    "Audio Visual Distributors"
+   ],
+   "rows": 4,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "Caelera": {
+   "action": "import",
+   "supplier": "Caelera",
+   "alternates": [],
+   "rows": 4,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "Ingram Micro": {
+   "action": "import",
+   "supplier": "Ingram Micro",
+   "alternates": [],
+   "rows": 4,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "CMS Electacom": {
+   "action": "import",
+   "supplier": "CMS Electracom",
+   "alternates": [],
+   "rows": 4,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Madison / Bluechip / Leader / Dicker": {
+   "action": "import",
+   "supplier": "MadisonAV",
+   "alternates": [
+    "BlueChip Infotech",
+    "Leader Computers",
+    "Dicker Data"
+   ],
+   "rows": 4,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Blonde Robot / Synnex": {
+   "action": "import",
+   "supplier": "Blonde Robot",
+   "alternates": [
+    "Synnex"
+   ],
+   "rows": 4,
+   "tabs": [
+    "Broadcast"
+   ]
+  },
+  "Roland / Amber Tech / AVAD": {
+   "action": "import",
+   "supplier": "Amber Technology",
+   "alternates": [],
+   "rows": 4,
+   "tabs": [
+    "Broadcast"
+   ]
+  },
+  "Dicker / Ingram / Synnex / Alloys / MMT": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "Ingram Micro",
+    "Synnex",
+    "Alloys",
+    "MMT"
+   ],
+   "rows": 4,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "SRA Solutions": {
+   "action": "import",
+   "supplier": "SRA Solutions",
+   "alternates": [],
+   "rows": 4,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Elgee / Radio Parts": {
+   "action": "import",
+   "supplier": "Elgee",
+   "alternates": [
+    "Radio Parts"
+   ],
+   "rows": 4,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Thor": {
+   "action": "import",
+   "supplier": "Thor",
+   "alternates": [],
+   "rows": 4,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "DONT ORDER / Ingram / ALD": {
+   "action": "skip",
+   "note": "marked do-not-order in the BoM",
+   "rows": 4,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "CMS": {
+   "action": "import",
+   "supplier": "CMS Electracom",
+   "alternates": [],
+   "rows": 4,
+   "tabs": [
+    "Table Boxes"
+   ]
+  },
+  "CSR - Himmel Interiors": {
+   "action": "import",
+   "supplier": "CSR (Himmel Interiors)",
+   "alternates": [],
+   "rows": 4,
+   "tabs": [
+    "Sound Masking"
+   ]
+  },
+  "EECTech": {
+   "action": "import",
+   "supplier": "EECTech",
+   "alternates": [],
+   "rows": 4,
+   "tabs": [
+    "TEMP - GCEC Cables"
+   ]
+  },
+  "OFE": {
+   "action": "import",
+   "supplier": "OFE (Client Supplied)",
+   "alternates": [],
+   "rows": 3,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "Alloys / Anixter": {
+   "action": "import",
+   "supplier": "Alloys",
+   "alternates": [
+    "Anixter (Wesco)"
+   ],
+   "rows": 3,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "Autonomic USA": {
+   "action": "import",
+   "supplier": "Autonomic USA",
+   "alternates": [],
+   "rows": 3,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "Audalize": {
+   "action": "import",
+   "supplier": "Audalize",
+   "alternates": [],
+   "rows": 3,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "Madison / Westan": {
+   "action": "import",
+   "supplier": "MadisonAV",
+   "alternates": [
+    "Westan"
+   ],
+   "rows": 3,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "AVD / Showlogic": {
+   "action": "import",
+   "supplier": "Audio Visual Distributors",
+   "alternates": [
+    "Showlogic"
+   ],
+   "rows": 3,
+   "tabs": [
+    "Control"
+   ]
+  },
+  "Spacera / Anixter": {
+   "action": "import",
+   "supplier": "Spacera",
+   "alternates": [
+    "Anixter (Wesco)"
+   ],
+   "rows": 3,
+   "tabs": [
+    "Control"
+   ]
+  },
+  "Xyte": {
+   "action": "import",
+   "supplier": "Xyte",
+   "alternates": [],
+   "rows": 3,
+   "tabs": [
+    "Control"
+   ]
+  },
+  "Exact Solutions / LANG AG / ITI": {
+   "action": "import",
+   "supplier": "Exact Solutions",
+   "alternates": [
+    "LANG AG",
+    "ITI"
+   ],
+   "rows": 3,
+   "tabs": [
+    "Projectors"
+   ]
+  },
+  "XIT": {
+   "action": "import",
+   "supplier": "XIT",
+   "alternates": [],
+   "rows": 3,
+   "tabs": [
+    "Mounts"
+   ]
+  },
+  "PAVT / CMI": {
+   "action": "import",
+   "supplier": "PAVT",
+   "alternates": [
+    "CMI"
+   ],
+   "rows": 3,
+   "tabs": [
+    "Audio - Amps"
+   ]
+  },
+  "Yamaha / AVAD": {
+   "action": "import",
+   "supplier": "Yamaha",
+   "alternates": [],
+   "rows": 3,
+   "tabs": [
+    "Audio - Amps"
+   ]
+  },
+  "Biamp / AVD": {
+   "action": "import",
+   "supplier": "Biamp",
+   "alternates": [],
+   "rows": 3,
+   "tabs": [
+    "Audio - Microphones"
+   ]
+  },
+  "Audio Active / JB": {
+   "action": "import",
+   "supplier": "Audio Active",
+   "alternates": [],
+   "rows": 3,
+   "tabs": [
+    "Audio - Speakers"
+   ]
+  },
+  "Sony": {
+   "action": "import",
+   "supplier": "Sony",
+   "alternates": [],
+   "rows": 3,
+   "tabs": [
+    "Audio - Speakers"
+   ]
+  },
+  "Electus / Jaycar": {
+   "action": "import",
+   "supplier": "Electus",
+   "alternates": [],
+   "rows": 3,
+   "tabs": [
+    "Hearing Aug"
+   ]
+  },
+  "Radioparts": {
+   "action": "import",
+   "supplier": "Radio Parts",
+   "alternates": [],
+   "rows": 3,
+   "tabs": [
+    "Hearing Aug"
+   ]
+  },
+  "Other World Computing": {
+   "action": "import",
+   "supplier": "Other World Computing",
+   "alternates": [],
+   "rows": 3,
+   "tabs": [
+    "Cables"
+   ]
+  },
+  "Synnex / Leader / Ingram": {
+   "action": "import",
+   "supplier": "Synnex",
+   "alternates": [
+    "Leader Computers",
+    "Ingram Micro"
+   ],
+   "rows": 3,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Dicker / Ingram / Anixter": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "Ingram Micro",
+    "Anixter (Wesco)"
+   ],
+   "rows": 3,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Atdec": {
+   "action": "import",
+   "supplier": "Atdec",
+   "alternates": [],
+   "rows": 3,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "SKS": {
+   "action": "import",
+   "supplier": "SKS",
+   "alternates": [],
+   "rows": 3,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Eshaudio": {
+   "action": "import",
+   "supplier": "Eshaudio",
+   "alternates": [],
+   "rows": 3,
+   "tabs": [
+    "TEMP - GCEC Cables"
+   ]
+  },
+  "JB Hi-Fi": {
+   "action": "import",
+   "supplier": "JB Hi-Fi",
+   "alternates": [],
+   "note": "retail channel",
+   "rows": 2,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "Secure Entertainment": {
+   "action": "import",
+   "supplier": "Secure Entertainment",
+   "alternates": [],
+   "note": "retail channel",
+   "rows": 2,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "JB Hi-Fi / Big W": {
+   "action": "import",
+   "supplier": "JB Hi-Fi",
+   "alternates": [
+    "Big W"
+   ],
+   "note": "retail channel",
+   "rows": 2,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "JB Hi-Fi / Officeworks": {
+   "action": "import",
+   "supplier": "JB Hi-Fi",
+   "alternates": [
+    "Officeworks"
+   ],
+   "note": "retail channel",
+   "rows": 2,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "????": {
+   "action": "skip",
+   "note": "vendor unknown in the BoM",
+   "rows": 2,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "Electus (Jaycar / Radio Parts)": {
+   "action": "import",
+   "supplier": "Electus",
+   "alternates": [],
+   "rows": 2,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "Dicker / Ingram / Leader": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "Ingram Micro",
+    "Leader Computers"
+   ],
+   "rows": 2,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "CR Kennedy": {
+   "action": "import",
+   "supplier": "CR Kennedy",
+   "alternates": [],
+   "rows": 2,
+   "tabs": [
+    "Projectors"
+   ]
+  },
+  "Audio Active": {
+   "action": "import",
+   "supplier": "Audio Active",
+   "alternates": [],
+   "rows": 2,
+   "tabs": [
+    "Audio - Amps"
+   ]
+  },
+  "Lindy/Midwich": {
+   "action": "import",
+   "supplier": "Lindy",
+   "alternates": [],
+   "rows": 2,
+   "tabs": [
+    "Hearing Aug"
+   ]
+  },
+  "AVW Broadcast / Anixter": {
+   "action": "import",
+   "supplier": "AVW Broadcast",
+   "alternates": [
+    "Anixter (Wesco)"
+   ],
+   "rows": 2,
+   "tabs": [
+    "Room Booking Panels"
+   ]
+  },
+  "Avico / Logitech": {
+   "action": "import",
+   "supplier": "Avico",
+   "alternates": [
+    "Logitech"
+   ],
+   "rows": 2,
+   "tabs": [
+    "Room Booking Panels"
+   ]
+  },
+  "Sektor / Bluechip / Dicker": {
+   "action": "import",
+   "supplier": "Sektor",
+   "alternates": [
+    "BlueChip Infotech",
+    "Dicker Data"
+   ],
+   "rows": 2,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "Synnex / Anixter / Dicker / Leader / Bluechip": {
+   "action": "import",
+   "supplier": "Synnex",
+   "alternates": [
+    "Anixter (Wesco)",
+    "Dicker Data",
+    "Leader Computers",
+    "BlueChip Infotech"
+   ],
+   "rows": 2,
+   "tabs": [
+    "USB"
+   ]
+  },
+  "NPS Power / Fosh": {
+   "action": "import",
+   "supplier": "NPS Power",
+   "alternates": [
+    "Fosh"
+   ],
+   "rows": 2,
+   "tabs": [
+    "USB"
+   ]
+  },
+  "Dicker / JB Hi-Fi": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "JB Hi-Fi"
+   ],
+   "rows": 2,
+   "tabs": [
+    "USB"
+   ]
+  },
+  "Bluechip / Leader / CommsPlus": {
+   "action": "import",
+   "supplier": "BlueChip Infotech",
+   "alternates": [
+    "Leader Computers",
+    "CommsPlus"
+   ],
+   "rows": 2,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "AVD / Dicker / Quantum": {
+   "action": "import",
+   "supplier": "Audio Visual Distributors",
+   "alternates": [
+    "Dicker Data",
+    "Quantum Sphere"
+   ],
+   "rows": 2,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Bunnings": {
+   "action": "import",
+   "supplier": "Bunnings",
+   "alternates": [],
+   "note": "retail channel",
+   "rows": 2,
+   "tabs": [
+    "Hardware",
+    "VC"
+   ]
+  },
+  "Midwich / Dicker / Crestron": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [
+    "Dicker Data",
+    "Crestron"
+   ],
+   "rows": 2,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "B&H Online": {
+   "action": "import",
+   "supplier": "B&H Online",
+   "alternates": [],
+   "note": "retail channel",
+   "rows": 2,
+   "tabs": [
+    "Broadcast"
+   ]
+  },
+  "Jaycar": {
+   "action": "import",
+   "supplier": "Jaycar",
+   "alternates": [],
+   "note": "retail channel",
+   "rows": 2,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Ingram/Leader": {
+   "action": "import",
+   "supplier": "Ingram Micro",
+   "alternates": [
+    "Leader Computers"
+   ],
+   "rows": 2,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Scaff Active": {
+   "action": "import",
+   "supplier": "Scaff Active",
+   "alternates": [],
+   "rows": 2,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 7 Cutout": {
+   "action": "import",
+   "supplier": "SKS Custom",
+   "alternates": [],
+   "note": "internal fabrication; panel spec lives in the vendor string: SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 7 Cutout",
+   "rows": 2,
+   "tabs": [
+    "TEMP - GCEC Panels & Patch"
+   ]
+  },
+  "SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 78 Cutout": {
+   "action": "import",
+   "supplier": "SKS Custom",
+   "alternates": [],
+   "note": "internal fabrication; panel spec lives in the vendor string: SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 78 Cutout",
+   "rows": 2,
+   "tabs": [
+    "TEMP - GCEC Panels & Patch"
+   ]
+  },
+  "BVND": {
+   "action": "import",
+   "supplier": "BVND",
+   "alternates": [],
+   "rows": 2,
+   "tabs": [
+    "TEMP - GCEC Cables"
+   ]
+  },
+  "JB Hi-Fi / Audio Active": {
+   "action": "import",
+   "supplier": "JB Hi-Fi",
+   "alternates": [
+    "Audio Active"
+   ],
+   "note": "retail channel",
+   "rows": 1,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "Midwich / Quantum Sphere / Alloys / Dicker": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [
+    "Quantum Sphere",
+    "Alloys",
+    "Dicker Data"
+   ],
+   "rows": 1,
+   "tabs": [
+    "Sources"
+   ]
+  },
+  "Audio Active ONLY": {
+   "action": "import",
+   "supplier": "Audio Active",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "BTC / Dicker": {
+   "action": "import",
+   "supplier": "BTC",
+   "alternates": [
+    "Dicker Data"
+   ],
+   "rows": 1,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "Midwich / Bluefin": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [
+    "Bluefin"
+   ],
+   "rows": 1,
+   "tabs": [
+    "LCD Screens"
+   ]
+  },
+  "Ingram / Sektor": {
+   "action": "import",
+   "supplier": "Ingram Micro",
+   "alternates": [
+    "Sektor"
+   ],
+   "rows": 1,
+   "tabs": [
+    "Control"
+   ]
+  },
+  "BTC": {
+   "action": "import",
+   "supplier": "BTC",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "Control"
+   ]
+  },
+  "Dicker / Anixter": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "Anixter (Wesco)"
+   ],
+   "rows": 1,
+   "tabs": [
+    "Control"
+   ]
+  },
+  "Mouser": {
+   "action": "import",
+   "supplier": "Mouser",
+   "alternates": [],
+   "note": "retail channel",
+   "rows": 1,
+   "tabs": [
+    "Control"
+   ]
+  },
+  "ADI Global": {
+   "action": "import",
+   "supplier": "ADI Global (Snap One)",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "Control"
+   ]
+  },
+  "SKS / Stokes": {
+   "action": "import",
+   "supplier": "SKS",
+   "alternates": [
+    "Stokes"
+   ],
+   "rows": 1,
+   "tabs": [
+    "Control"
+   ]
+  },
+  "Samsung": {
+   "action": "import",
+   "supplier": "Samsung",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "Control"
+   ]
+  },
+  "Opie": {
+   "action": "import",
+   "supplier": "OPIE",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "Mounts"
+   ]
+  },
+  "AV Supply Group": {
+   "action": "import",
+   "supplier": "AV Supply Group",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "Mounts"
+   ]
+  },
+  "Quantum / Midwich": {
+   "action": "import",
+   "supplier": "Quantum Sphere",
+   "alternates": [
+    "Midwich"
+   ],
+   "rows": 1,
+   "tabs": [
+    "Audio - Microphones"
+   ]
+  },
+  "RadioParts": {
+   "action": "import",
+   "supplier": "Radio Parts",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "Hearing Aug"
+   ]
+  },
+  "Capisco": {
+   "action": "import",
+   "supplier": "Capisco",
+   "alternates": [],
+   "note": "retail channel",
+   "rows": 1,
+   "tabs": [
+    "Hearing Aug"
+   ]
+  },
+  "Envoy": {
+   "action": "import",
+   "supplier": "Envoy",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "Room Booking Panels"
+   ]
+  },
+  "L&H Pacific Data": {
+   "action": "import",
+   "supplier": "L&H",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "Cable Rolls (Per Meter)"
+   ]
+  },
+  "Criterion Industriers": {
+   "action": "import",
+   "supplier": "Criterion Industriers",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "Cable Rolls (Per Meter)"
+   ]
+  },
+  "Amazon": {
+   "action": "import",
+   "supplier": "Amazon",
+   "alternates": [],
+   "note": "retail channel",
+   "rows": 1,
+   "tabs": [
+    "Cables"
+   ]
+  },
+  "TRC": {
+   "action": "import",
+   "supplier": "TRC",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "Cables"
+   ]
+  },
+  "Wyrestorm": {
+   "action": "import",
+   "supplier": "Wyrestorm",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "Switching & Distribution"
+   ]
+  },
+  "Dicker / Madison / Synnex / AVD / Audio Brands": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "MadisonAV",
+    "Synnex",
+    "Audio Visual Distributors",
+    "Audio Brands Australia"
+   ],
+   "rows": 1,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "ORDER FROM Synnex (Madison / TAG / Dicker / AVD / Audio Brands)": {
+   "action": "import",
+   "supplier": "Synnex",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "Synnex / Bluechip / Leader": {
+   "action": "import",
+   "supplier": "Synnex",
+   "alternates": [
+    "BlueChip Infotech",
+    "Leader Computers"
+   ],
+   "rows": 1,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "Wes Components": {
+   "action": "import",
+   "supplier": "Wes Components",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "Networking"
+   ]
+  },
+  "Midwich / Anixter": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [
+    "Anixter (Wesco)"
+   ],
+   "rows": 1,
+   "tabs": [
+    "USB"
+   ]
+  },
+  "Bluechip / Anixter": {
+   "action": "import",
+   "supplier": "BlueChip Infotech",
+   "alternates": [
+    "Anixter (Wesco)"
+   ],
+   "rows": 1,
+   "tabs": [
+    "USB"
+   ]
+  },
+  "Dicker / MMT / Ingram / Synnex": {
+   "action": "import",
+   "supplier": "Dicker Data",
+   "alternates": [
+    "MMT",
+    "Ingram Micro",
+    "Synnex"
+   ],
+   "rows": 1,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Jands/ Dicker": {
+   "action": "import",
+   "supplier": "Jands",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "Midwich / Ingram": {
+   "action": "import",
+   "supplier": "Midwich",
+   "alternates": [
+    "Ingram Micro"
+   ],
+   "rows": 1,
+   "tabs": [
+    "VC"
+   ]
+  },
+  "ITE": {
+   "action": "import",
+   "supplier": "ITE",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "Wesco Anixter": {
+   "action": "import",
+   "supplier": "Anixter (Wesco)",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "Hardware"
+   ]
+  },
+  "SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 19 Cutout": {
+   "action": "import",
+   "supplier": "SKS Custom",
+   "alternates": [],
+   "note": "internal fabrication; panel spec lives in the vendor string: SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 19 Cutout",
+   "rows": 1,
+   "tabs": [
+    "TEMP - GCEC Panels & Patch"
+   ]
+  },
+  "SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 13 Cutout": {
+   "action": "import",
+   "supplier": "SKS Custom",
+   "alternates": [],
+   "note": "internal fabrication; panel spec lives in the vendor string: SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 13 Cutout",
+   "rows": 1,
+   "tabs": [
+    "TEMP - GCEC Panels & Patch"
+   ]
+  },
+  "SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 3 Cutout": {
+   "action": "import",
+   "supplier": "SKS Custom",
+   "alternates": [],
+   "note": "internal fabrication; panel spec lives in the vendor string: SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 3 Cutout",
+   "rows": 1,
+   "tabs": [
+    "TEMP - GCEC Panels & Patch"
+   ]
+  },
+  "SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 22 Cutout": {
+   "action": "import",
+   "supplier": "SKS Custom",
+   "alternates": [],
+   "note": "internal fabrication; panel spec lives in the vendor string: SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 22 Cutout",
+   "rows": 1,
+   "tabs": [
+    "TEMP - GCEC Panels & Patch"
+   ]
+  },
+  "SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 2 Cutout": {
+   "action": "import",
+   "supplier": "SKS Custom",
+   "alternates": [],
+   "note": "internal fabrication; panel spec lives in the vendor string: SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 2 Cutout",
+   "rows": 1,
+   "tabs": [
+    "TEMP - GCEC Panels & Patch"
+   ]
+  },
+  "Swamp": {
+   "action": "import",
+   "supplier": "Swamp Industries",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "TEMP - GCEC Cables"
+   ]
+  },
+  "RS-Online": {
+   "action": "import",
+   "supplier": "RS Components",
+   "alternates": [],
+   "rows": 1,
+   "tabs": [
+    "TEMP - GCEC Cables"
+   ]
+  },
+  "Selby": {
+   "action": "import",
+   "supplier": "Selby",
+   "alternates": [],
+   "note": "retail channel",
+   "rows": 1,
+   "tabs": [
+    "TEMP - GCEC Cables"
+   ]
+  }
+ }
+}

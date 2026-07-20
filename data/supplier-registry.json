@@ -1,0 +1,1727 @@
+{
+ "suppliers": {
+  "Dicker Data": {
+   "rows": 700,
+   "alternate_rows": 755,
+   "scopes": [],
+   "variants": [
+    "Dicker / Bluechip",
+    "Dicker / Ingram / Alloys",
+    "Dicker / Ingram / Synnex",
+    "Dicker / Ingram",
+    "Dicker / Leader / Bluechip",
+    "Dicker Data",
+    "Dicker",
+    "Dicker / Synnex",
+    "Dicker / Bluechip / Ingram / Anixter",
+    "Dicker / Ingram / Bluechip",
+    "Dicker / Ingram / Leader / L&H / Rexel",
+    "Dicker / BCIT",
+    "Dicker / Ingram / Synnex / MMT",
+    "Dicker / Ingram Micro / Bluechip",
+    "Dicker / Synnex / AVD",
+    "Dicker / Ingram / Synnex / Alloys / MMT",
+    "Dicker / Ingram / Anixter",
+    "Dicker / Ingram / Leader",
+    "Dicker / JB Hi-Fi",
+    "Dicker / Anixter",
+    "Dicker / Madison / Synnex / AVD / Audio Brands",
+    "Dicker / MMT / Ingram / Synnex"
+   ]
+  },
+  "Jands": {
+   "rows": 675,
+   "alternate_rows": 40,
+   "scopes": [],
+   "variants": [
+    "Jands",
+    "Jands / Radio Parts",
+    "Jands / Dicker",
+    "Jands / Dicker Data",
+    "Jands/ Dicker"
+   ]
+  },
+  "Midwich": {
+   "rows": 513,
+   "alternate_rows": 417,
+   "scopes": [],
+   "variants": [
+    "Midwich / AV Supply",
+    "Midwich",
+    "Midwich / Dicker / Ingram / WBT",
+    "Midwich / Commsplus",
+    "Midwich / Quantum / MMT",
+    "Midwich / Quantum",
+    "Midwich / Alloys / Quantum / MMT",
+    "Midwich / WBT",
+    "Midwich / Dicker",
+    "Midwich / Quantum / Alloys",
+    "Midwich / Quantum / Avation",
+    "Midwich / Westan",
+    "Midwich / Dicker / Crestron",
+    "Midwich / Quantum Sphere / Alloys / Dicker",
+    "Midwich / Bluefin",
+    "Midwich / Anixter",
+    "Midwich / Ingram"
+   ]
+  },
+  "Amber Technology": {
+   "rows": 498,
+   "alternate_rows": 16,
+   "scopes": [],
+   "variants": [
+    "Amber Tech",
+    "Amber",
+    "Amber Technology",
+    "Amber / ADI (SnapOne) / Jands",
+    "Amber / CommsPlus",
+    "Amber / Bayview",
+    "Roland / Amber Tech / AVAD"
+   ]
+  },
+  "MadisonAV": {
+   "rows": 478,
+   "alternate_rows": 167,
+   "scopes": [],
+   "variants": [
+    "Madison",
+    "Madison AV",
+    "Madison / 45dB",
+    "Madison / Audio Brands",
+    "Madison / Corsair",
+    "Madison Tech",
+    "Madison / Radio Parts",
+    "Madison / Bluechip / Leader / Dicker",
+    "Madison / Westan"
+   ]
+  },
+  "Quantum Sphere": {
+   "rows": 442,
+   "alternate_rows": 186,
+   "scopes": [],
+   "variants": [
+    "Quantum / Alloys / Dicker / Midwich",
+    "Quantum Sphere",
+    "Quantum / Alloys / MMT / AVD / XIT",
+    "Quantum",
+    "Quantum / Alloys",
+    "Quantum / Anixter",
+    "Quantum / NAS",
+    "Quantum / WBT",
+    "Quantum / AVAD",
+    "Quantum Sphere / Alloys / Dicker / Midwich",
+    "Quantum / Midwich"
+   ]
+  },
+  "Kramer": {
+   "rows": 438,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Kramer"
+   ]
+  },
+  "Crestron": {
+   "rows": 431,
+   "alternate_rows": 2,
+   "scopes": [],
+   "variants": [
+    "Crestron"
+   ]
+  },
+  "Extron": {
+   "rows": 374,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Extron"
+   ]
+  },
+  "Technical Audio Group": {
+   "rows": 343,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "TAG"
+   ]
+  },
+  "Biamp": {
+   "rows": 333,
+   "alternate_rows": 0,
+   "scopes": [
+    "deal-reg-0",
+    "deal-reg-10",
+    "deal-reg-5"
+   ],
+   "variants": [
+    "Biamp 5%",
+    "Biamp 0%",
+    "Biamp 10%",
+    "Biamp",
+    "Biamp / AVD"
+   ]
+  },
+  "Anixter (Wesco)": {
+   "rows": 308,
+   "alternate_rows": 240,
+   "scopes": [],
+   "variants": [
+    "Anixter",
+    "Anixter - Middys / Rexel / L&H",
+    "Anixter / Uptime Systems",
+    "Anixter / AV Supply",
+    "Anixter / Dicker (DAS) / Ingram",
+    "Anixter - AWM / L&H / Pacific Data / Middys",
+    "Wesco Anixter"
+   ]
+  },
+  "Ingram Micro": {
+   "rows": 300,
+   "alternate_rows": 640,
+   "scopes": [],
+   "variants": [
+    "Ingram / Dicker / Westcon",
+    "Ingram / Dicker / Westcon / MMT",
+    "Ingram",
+    "Ingram /Commsplus / Leading Solutions/Auroz",
+    "Ingram / MMT / L & H (Pac data)",
+    "Ingram / Commsplus / Leading Solutions / Auroz",
+    "Ingram / Dicker (DAS)",
+    "Ingram / Synnex",
+    "Ingram - JB Hi-Fi / Officeworks",
+    "Ingram / Dicker",
+    "Ingram Micro",
+    "Ingram/Leader",
+    "Ingram / Sektor"
+   ]
+  },
+  "Lindy": {
+   "rows": 273,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Lindy",
+    "Lindy / Midwich",
+    "Lindy / Midwich / Anixter",
+    "Lindy / Midwich / Anixter / AVAD",
+    "Lindy / Midwich / Anixter / AVAD / DSTECH",
+    "Lindy/Midwich"
+   ]
+  },
+  "NAS Australia": {
+   "rows": 210,
+   "alternate_rows": 32,
+   "scopes": [],
+   "variants": [
+    "NAS",
+    "NAS Solutions",
+    "NAS / ULA Group"
+   ]
+  },
+  "Audio Visual Distributors": {
+   "rows": 197,
+   "alternate_rows": 65,
+   "scopes": [],
+   "variants": [
+    "AVD",
+    "AVD / Dicker",
+    "AVD / Showlogic",
+    "AVD / Dicker / Quantum"
+   ]
+  },
+  "Kordz": {
+   "rows": 186,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Kordz"
+   ]
+  },
+  "Canohm": {
+   "rows": 180,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Canohm"
+   ]
+  },
+  "Synnex": {
+   "rows": 177,
+   "alternate_rows": 224,
+   "scopes": [],
+   "variants": [
+    "Synnex",
+    "Synnex - XIT / Dynamic / AV Supply",
+    "Synnex (Crestron / Madison / TAG / Biamp / Dicker / AVD / Audio Brands)",
+    "Synnex / Anixter / Ingram / Dicker / Leader / Bluechip",
+    "Synnex / Quantum",
+    "Synnex/Madison",
+    "Synnex / WBT",
+    "Synnex / JB Hi-Fi / Officeworks",
+    "Synnex / Ingram",
+    "Synnex / Leader / Ingram",
+    "Synnex / Anixter / Dicker / Leader / Bluechip",
+    "ORDER FROM Synnex (Madison / TAG / Dicker / AVD / Audio Brands)",
+    "Synnex / Bluechip / Leader"
+   ]
+  },
+  "Westan": {
+   "rows": 159,
+   "alternate_rows": 71,
+   "scopes": [],
+   "variants": [
+    "Westan",
+    "Westan / Madison"
+   ]
+  },
+  "Alloys": {
+   "rows": 156,
+   "alternate_rows": 443,
+   "scopes": [],
+   "variants": [
+    "Alloys / Westan / Midwich / Dicker",
+    "Alloys / Quantum / Midwich / MMT",
+    "Alloys",
+    "Alloys / Ingram",
+    "Alloys / Midwich / Quantum / MMT",
+    "Alloys / MMT / Quantum",
+    "Alloys / Quantum / MMT / AVAD",
+    "Alloys / Westan",
+    "Alloys / Westan / Midwich",
+    "Alloys / Anixter"
+   ]
+  },
+  "Sennheiser": {
+   "rows": 153,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Sennheiser"
+   ]
+  },
+  "Audio Brands Australia": {
+   "rows": 150,
+   "alternate_rows": 13,
+   "scopes": [],
+   "variants": [
+    "Audio Brands",
+    "Audio Brands / Audio Logistics"
+   ]
+  },
+  "Australis Pro Audio": {
+   "rows": 148,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Australis"
+   ]
+  },
+  "Yamaha": {
+   "rows": 125,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Yamaha",
+    "Yamaha / Amber",
+    "Yamaha / AVAD"
+   ]
+  },
+  "Seltec": {
+   "rows": 122,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Seltec",
+    "Seltec / Synnex",
+    "Seltec / Rexel"
+   ]
+  },
+  "BlueChip Infotech": {
+   "rows": 116,
+   "alternate_rows": 249,
+   "scopes": [],
+   "variants": [
+    "Bluechip / Leader / CommsPlus / Dicker / Madison",
+    "Bluechip / Madison / Leader / Dicker / BTC",
+    "Bluechip / Dicker",
+    "Bluechip / Madison / Leader / Dicker / Midwich",
+    "Bluechip",
+    "Bluechip / Leader / CommsPlus",
+    "Bluechip / Anixter"
+   ]
+  },
+  "Screen Technics": {
+   "rows": 114,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Screen Technics"
+   ]
+  },
+  "Altronics": {
+   "rows": 113,
+   "alternate_rows": 8,
+   "scopes": [],
+   "variants": [
+    "Altronics"
+   ]
+  },
+  "Radio Parts": {
+   "rows": 106,
+   "alternate_rows": 29,
+   "scopes": [],
+   "variants": [
+    "Radio Parts",
+    "Radio Parts / Altronics",
+    "Radio Parts / Jands",
+    "Radioparts",
+    "RadioParts"
+   ]
+  },
+  "AVAD": {
+   "rows": 96,
+   "alternate_rows": 108,
+   "scopes": [],
+   "variants": [
+    "TCL / AVAD",
+    "AVAD / Quantum / Alloys / MMT / XIT",
+    "AVAD / Masimo",
+    "AVAD",
+    "AVAD / Yamaha",
+    "Unilumin / AVAD"
+   ]
+  },
+  "Group Technologies": {
+   "rows": 92,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Group Technologies",
+    "Group Tech"
+   ]
+  },
+  "Barco": {
+   "rows": 82,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Barco"
+   ]
+  },
+  "ECD": {
+   "rows": 82,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "ECD"
+   ]
+  },
+  "Corsair": {
+   "rows": 80,
+   "alternate_rows": 10,
+   "scopes": [],
+   "variants": [
+    "Corsair",
+    "Corsair / AVD"
+   ]
+  },
+  "Vitec": {
+   "rows": 79,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Vitec",
+    "Vitek / Midwich",
+    "Vitec / Midwich"
+   ]
+  },
+  "PAVT": {
+   "rows": 68,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "PAVT",
+    "PAVT / CMI"
+   ]
+  },
+  "Audio Logistics": {
+   "rows": 65,
+   "alternate_rows": 37,
+   "scopes": [],
+   "variants": [
+    "Audio Logistics",
+    "Audio Logistics / Audio Source / AVICO",
+    "Audio Logistics / Audio Source"
+   ]
+  },
+  "Atdec": {
+   "rows": 61,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Atdec / Dicker / MMT / Ingram",
+    "Atdec / MMT / Dicker / Ingram",
+    "Atdec / Dicker / MMT / Ingram / WBT",
+    "Atdec"
+   ]
+  },
+  "Lightware": {
+   "rows": 56,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Lightware"
+   ]
+  },
+  "Appspace": {
+   "rows": 48,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Appspace"
+   ]
+  },
+  "Blonde Robot": {
+   "rows": 48,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Blonde Robot",
+    "Blonde Robot/Midwich",
+    "Blonde Robot / Synnex"
+   ]
+  },
+  "UltraLift": {
+   "rows": 47,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "UltraLift"
+   ]
+  },
+  "VisionChart": {
+   "rows": 47,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "VisionChart",
+    "Vision Chart"
+   ]
+  },
+  "Middys": {
+   "rows": 46,
+   "alternate_rows": 13,
+   "scopes": [],
+   "variants": [
+    "Middys / Rexel / L&H",
+    "Middys"
+   ]
+  },
+  "AV Supply": {
+   "rows": 46,
+   "alternate_rows": 27,
+   "scopes": [],
+   "variants": [
+    "AV Supply",
+    "AV Supply / AP Tech",
+    "AV Supply / Alloys"
+   ]
+  },
+  "Technology Core": {
+   "rows": 44,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Technology Core",
+    "Tech Core"
+   ]
+  },
+  "Simplex": {
+   "rows": 41,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Simplex"
+   ]
+  },
+  "Pacific Datacom": {
+   "rows": 40,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Pacific Data / Anixter",
+    "Pacific Data / Rexel"
+   ]
+  },
+  "Riedel": {
+   "rows": 39,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Riedel"
+   ]
+  },
+  "CMS Electracom": {
+   "rows": 37,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "CMS Electracom",
+    "CMS Electacom",
+    "CMS"
+   ]
+  },
+  "Leader Computers": {
+   "rows": 35,
+   "alternate_rows": 189,
+   "scopes": [],
+   "variants": [
+    "Leader",
+    "Leeder"
+   ]
+  },
+  "ADI Global (Snap One)": {
+   "rows": 34,
+   "alternate_rows": 36,
+   "scopes": [],
+   "variants": [
+    "ADI Global / Westan",
+    "ADI (Snap One)",
+    "ADI Global"
+   ]
+  },
+  "AVW Broadcast": {
+   "rows": 33,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "AVW Broadcast",
+    "AVW Broadcast Group",
+    "AVW Broadcast / Anixter"
+   ]
+  },
+  "MMT": {
+   "rows": 32,
+   "alternate_rows": 326,
+   "scopes": [],
+   "variants": [
+    "MMT",
+    "MMT / Ingram"
+   ]
+  },
+  "Alectro": {
+   "rows": 32,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Alectro"
+   ]
+  },
+  "Davis Legend": {
+   "rows": 32,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Davis Legend / Rexel",
+    "Davis Legend / Rexel / Middys"
+   ]
+  },
+  "Sektor": {
+   "rows": 30,
+   "alternate_rows": 1,
+   "scopes": [],
+   "variants": [
+    "Sektor",
+    "Sektor / Bluechip / Dicker"
+   ]
+  },
+  "CBS": {
+   "rows": 30,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "CBS / Amber",
+    "CBS"
+   ]
+  },
+  "New Magic": {
+   "rows": 29,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "New Magic"
+   ]
+  },
+  "Kayell": {
+   "rows": 29,
+   "alternate_rows": 10,
+   "scopes": [],
+   "variants": [
+    "Kayell"
+   ]
+  },
+  "Elgee": {
+   "rows": 28,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Elgee",
+    "Elgee / Radio Parts"
+   ]
+  },
+  "Avation": {
+   "rows": 27,
+   "alternate_rows": 7,
+   "scopes": [],
+   "variants": [
+    "Avation",
+    "Avation / AV Supply"
+   ]
+  },
+  "Screen Mounts": {
+   "rows": 25,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Screen Mounts / Alloys / AVAD"
+   ]
+  },
+  "CMI": {
+   "rows": 25,
+   "alternate_rows": 3,
+   "scopes": [],
+   "variants": [
+    "CMI"
+   ]
+  },
+  "Sonova": {
+   "rows": 25,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Sonova"
+   ]
+  },
+  "Access Communications": {
+   "rows": 25,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Access Communications"
+   ]
+  },
+  "NEC": {
+   "rows": 24,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "NEC"
+   ]
+  },
+  "MFB": {
+   "rows": 24,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "MFB"
+   ]
+  },
+  "Catchbox": {
+   "rows": 23,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Catchbox"
+   ]
+  },
+  "RS Components": {
+   "rows": 23,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "RS Components",
+    "RS-Online"
+   ]
+  },
+  "Convergent Technologies": {
+   "rows": 22,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Convergent Tech",
+    "Convergent Technologies"
+   ]
+  },
+  "TouchBoard": {
+   "rows": 21,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "TouchBoard"
+   ]
+  },
+  "Podion": {
+   "rows": 21,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Podion"
+   ]
+  },
+  "Blue Gum Joinery": {
+   "rows": 21,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Blue Gum Joinery"
+   ]
+  },
+  "WBT": {
+   "rows": 19,
+   "alternate_rows": 139,
+   "scopes": [],
+   "variants": [
+    "WBT",
+    "WBT / Midwich"
+   ]
+  },
+  "APS": {
+   "rows": 19,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "APS / Madison / Anixter"
+   ]
+  },
+  "The Resource Corp": {
+   "rows": 19,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "The Resource Corp"
+   ]
+  },
+  "InTouch Screens": {
+   "rows": 18,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "InTouch Screens"
+   ]
+  },
+  "Titan AV": {
+   "rows": 18,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Titan AV"
+   ]
+  },
+  "John Barry": {
+   "rows": 18,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "John Barry / Kayell / Lemac / Videocraft / Videoguys",
+    "John Barry"
+   ]
+  },
+  "APS Industrial": {
+   "rows": 17,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "APS Industrial"
+   ]
+  },
+  "Network Devices": {
+   "rows": 16,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Network Devices"
+   ]
+  },
+  "Octopus TV": {
+   "rows": 16,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Octopus TV"
+   ]
+  },
+  "Joan": {
+   "rows": 16,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Joan"
+   ]
+  },
+  "Factory Sound": {
+   "rows": 16,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Factory Sound"
+   ]
+  },
+  "TradeZone": {
+   "rows": 16,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Tradezone / OSA / Madison",
+    "TradeZone / OSA"
+   ]
+  },
+  "Avico": {
+   "rows": 16,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Avico / Leading Solutions",
+    "Avico",
+    "Avico / Logitech"
+   ]
+  },
+  "4Cabling": {
+   "rows": 15,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "4Cabling"
+   ]
+  },
+  "OPIE": {
+   "rows": 15,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "OPIE",
+    "Opie"
+   ]
+  },
+  "Sony": {
+   "rows": 15,
+   "alternate_rows": 0,
+   "scopes": [
+    "special-request"
+   ],
+   "variants": [
+    "SONY SPECIAL REQUEST",
+    "Sony"
+   ]
+  },
+  "Octek": {
+   "rows": 14,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Octek / Ingram"
+   ]
+  },
+  "SKS Custom": {
+   "rows": 14,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 16 Cutout",
+    "SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 7 Cutout",
+    "SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 78 Cutout",
+    "SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 19 Cutout",
+    "SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 13 Cutout",
+    "SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 3 Cutout",
+    "SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 22 Cutout",
+    "SKS Custom - 2.5mm Aluminium Patch Panel - Engraved - 2 Cutout"
+   ]
+  },
+  "Leading Solutions": {
+   "rows": 13,
+   "alternate_rows": 10,
+   "scopes": [],
+   "variants": [
+    "Leading Solutions"
+   ]
+  },
+  "CableSafe": {
+   "rows": 13,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "CableSafe / Radio Parts"
+   ]
+  },
+  "Swamp Industries": {
+   "rows": 13,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Swamp Industries",
+    "Swamp"
+   ]
+  },
+  "WhiteboardsRUs": {
+   "rows": 12,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "WhiteboardsRUs"
+   ]
+  },
+  "Techbox": {
+   "rows": 12,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Techbox"
+   ]
+  },
+  "AVTEQ": {
+   "rows": 11,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "AVTEQ"
+   ]
+  },
+  "BVND": {
+   "rows": 11,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "BVND / CLS",
+    "BVND"
+   ]
+  },
+  "AP Tech": {
+   "rows": 10,
+   "alternate_rows": 16,
+   "scopes": [],
+   "variants": [
+    "AP Tech"
+   ]
+  },
+  "1st Class Metals": {
+   "rows": 10,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "1st Class Metals"
+   ]
+  },
+  "ASL": {
+   "rows": 10,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "ASL"
+   ]
+  },
+  "Audacity": {
+   "rows": 9,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Audacity"
+   ]
+  },
+  "Soundmachine": {
+   "rows": 9,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Soundmachine"
+   ]
+  },
+  "ELB": {
+   "rows": 9,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "ELB"
+   ]
+  },
+  "CLS": {
+   "rows": 8,
+   "alternate_rows": 9,
+   "scopes": [],
+   "variants": [
+    "CLS"
+   ]
+  },
+  "JED": {
+   "rows": 8,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "JED"
+   ]
+  },
+  "Assetek": {
+   "rows": 8,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Assetek"
+   ]
+  },
+  "SealTV": {
+   "rows": 8,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "SealTV"
+   ]
+  },
+  "AVE": {
+   "rows": 8,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "AVE"
+   ]
+  },
+  "CommsPlus": {
+   "rows": 7,
+   "alternate_rows": 144,
+   "scopes": [],
+   "variants": [
+    "Comms Plus / Alloys"
+   ]
+  },
+  "ULA Group": {
+   "rows": 7,
+   "alternate_rows": 29,
+   "scopes": [],
+   "variants": [
+    "ULA Group"
+   ]
+  },
+  "Fosh": {
+   "rows": 7,
+   "alternate_rows": 2,
+   "scopes": [],
+   "variants": [
+    "Fosh / BTC"
+   ]
+  },
+  "AWM": {
+   "rows": 7,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "AWM / Rexel / Middys"
+   ]
+  },
+  "JB Hi-Fi": {
+   "rows": 7,
+   "alternate_rows": 6,
+   "scopes": [],
+   "variants": [
+    "JB Hi-Fi",
+    "JB Hi-Fi / Big W",
+    "JB Hi-Fi / Officeworks",
+    "JB Hi-Fi / Audio Active"
+   ]
+  },
+  "Korbyt": {
+   "rows": 6,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Korbyt"
+   ]
+  },
+  "SOHO Design": {
+   "rows": 6,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "SOHO Design"
+   ]
+  },
+  "Video Craft": {
+   "rows": 6,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Video Craft / Lemac"
+   ]
+  },
+  "All Interactive": {
+   "rows": 6,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "All Interactive / Broadcast Bruce"
+   ]
+  },
+  "Audio Active": {
+   "rows": 6,
+   "alternate_rows": 1,
+   "scopes": [],
+   "variants": [
+    "Audio Active / JB",
+    "Audio Active",
+    "Audio Active ONLY"
+   ]
+  },
+  "vir2store": {
+   "rows": 5,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "vir2store"
+   ]
+  },
+  "Lectern Australia": {
+   "rows": 5,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Lectern Australia"
+   ]
+  },
+  "Showtechnix": {
+   "rows": 5,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Showtechnix / Cases.com.au"
+   ]
+  },
+  "Transit Pak": {
+   "rows": 5,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Transit Pak"
+   ]
+  },
+  "Computer Support Systems (CSS)": {
+   "rows": 5,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Computer Support Systems (CSS)"
+   ]
+  },
+  "Leader Access Hire": {
+   "rows": 5,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Leader Access Hire"
+   ]
+  },
+  "Store DJ": {
+   "rows": 5,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Store DJ"
+   ]
+  },
+  "DJ City": {
+   "rows": 5,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "DJ City"
+   ]
+  },
+  "AV Supply Group": {
+   "rows": 5,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "AV Supply Group / Madison",
+    "AV Supply Group"
+   ]
+  },
+  "Electus": {
+   "rows": 5,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Electus / Jaycar",
+    "Electus (Jaycar / Radio Parts)"
+   ]
+  },
+  "WRE": {
+   "rows": 4,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "WRE / Radio Parts"
+   ]
+  },
+  "Hearing Aug Australia": {
+   "rows": 4,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Hearing Aug Australia"
+   ]
+  },
+  "BTS Australia": {
+   "rows": 4,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "BTS Australia"
+   ]
+  },
+  "Braille Co": {
+   "rows": 4,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Braille Co"
+   ]
+  },
+  "Skedda": {
+   "rows": 4,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Skedda"
+   ]
+  },
+  "Caelera": {
+   "rows": 4,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Caelera"
+   ]
+  },
+  "SRA Solutions": {
+   "rows": 4,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "SRA Solutions"
+   ]
+  },
+  "Thor": {
+   "rows": 4,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Thor"
+   ]
+  },
+  "CSR (Himmel Interiors)": {
+   "rows": 4,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "CSR - Himmel Interiors"
+   ]
+  },
+  "EECTech": {
+   "rows": 4,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "EECTech"
+   ]
+  },
+  "SKS": {
+   "rows": 4,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "SKS",
+    "SKS / Stokes"
+   ]
+  },
+  "XIT": {
+   "rows": 3,
+   "alternate_rows": 75,
+   "scopes": [],
+   "variants": [
+    "XIT"
+   ]
+  },
+  "OFE (Client Supplied)": {
+   "rows": 3,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "OFE"
+   ]
+  },
+  "Autonomic USA": {
+   "rows": 3,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Autonomic USA"
+   ]
+  },
+  "Audalize": {
+   "rows": 3,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Audalize"
+   ]
+  },
+  "Spacera": {
+   "rows": 3,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Spacera / Anixter"
+   ]
+  },
+  "Xyte": {
+   "rows": 3,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Xyte"
+   ]
+  },
+  "Exact Solutions": {
+   "rows": 3,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Exact Solutions / LANG AG / ITI"
+   ]
+  },
+  "Other World Computing": {
+   "rows": 3,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Other World Computing"
+   ]
+  },
+  "Eshaudio": {
+   "rows": 3,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Eshaudio"
+   ]
+  },
+  "BTC": {
+   "rows": 2,
+   "alternate_rows": 15,
+   "scopes": [],
+   "variants": [
+    "BTC / Dicker",
+    "BTC"
+   ]
+  },
+  "Secure Entertainment": {
+   "rows": 2,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Secure Entertainment"
+   ]
+  },
+  "CR Kennedy": {
+   "rows": 2,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "CR Kennedy"
+   ]
+  },
+  "NPS Power": {
+   "rows": 2,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "NPS Power / Fosh"
+   ]
+  },
+  "Bunnings": {
+   "rows": 2,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Bunnings"
+   ]
+  },
+  "B&H Online": {
+   "rows": 2,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "B&H Online"
+   ]
+  },
+  "Jaycar": {
+   "rows": 2,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Jaycar"
+   ]
+  },
+  "Scaff Active": {
+   "rows": 2,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Scaff Active"
+   ]
+  },
+  "L&H": {
+   "rows": 1,
+   "alternate_rows": 58,
+   "scopes": [],
+   "variants": [
+    "L&H Pacific Data"
+   ]
+  },
+  "Mouser": {
+   "rows": 1,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Mouser"
+   ]
+  },
+  "Samsung": {
+   "rows": 1,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Samsung"
+   ]
+  },
+  "Capisco": {
+   "rows": 1,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Capisco"
+   ]
+  },
+  "Envoy": {
+   "rows": 1,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Envoy"
+   ]
+  },
+  "Criterion Industriers": {
+   "rows": 1,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Criterion Industriers"
+   ]
+  },
+  "Amazon": {
+   "rows": 1,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Amazon"
+   ]
+  },
+  "TRC": {
+   "rows": 1,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "TRC"
+   ]
+  },
+  "Wyrestorm": {
+   "rows": 1,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Wyrestorm"
+   ]
+  },
+  "Wes Components": {
+   "rows": 1,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Wes Components"
+   ]
+  },
+  "ITE": {
+   "rows": 1,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "ITE"
+   ]
+  },
+  "Selby": {
+   "rows": 1,
+   "alternate_rows": 0,
+   "scopes": [],
+   "variants": [
+    "Selby"
+   ]
+  },
+  "Westcon": {
+   "rows": 0,
+   "alternate_rows": 179,
+   "scopes": [],
+   "variants": []
+  },
+  "Uptime Systems": {
+   "rows": 0,
+   "alternate_rows": 30,
+   "scopes": [],
+   "variants": []
+  },
+  "Rexel": {
+   "rows": 0,
+   "alternate_rows": 105,
+   "scopes": [],
+   "variants": []
+  },
+  "Audio Source": {
+   "rows": 0,
+   "alternate_rows": 39,
+   "scopes": [],
+   "variants": []
+  },
+  "AVICO": {
+   "rows": 0,
+   "alternate_rows": 20,
+   "scopes": [],
+   "variants": []
+  },
+  "DSTECH": {
+   "rows": 0,
+   "alternate_rows": 15,
+   "scopes": [],
+   "variants": []
+  },
+  "Bayview": {
+   "rows": 0,
+   "alternate_rows": 12,
+   "scopes": [],
+   "variants": []
+  },
+  "OSA": {
+   "rows": 0,
+   "alternate_rows": 16,
+   "scopes": [],
+   "variants": []
+  },
+  "Lemac": {
+   "rows": 0,
+   "alternate_rows": 16,
+   "scopes": [],
+   "variants": []
+  },
+  "Videocraft": {
+   "rows": 0,
+   "alternate_rows": 10,
+   "scopes": [],
+   "variants": []
+  },
+  "Videoguys": {
+   "rows": 0,
+   "alternate_rows": 10,
+   "scopes": [],
+   "variants": []
+  },
+  "Broadcast Bruce": {
+   "rows": 0,
+   "alternate_rows": 6,
+   "scopes": [],
+   "variants": []
+  },
+  "Cases.com.au": {
+   "rows": 0,
+   "alternate_rows": 5,
+   "scopes": [],
+   "variants": []
+  },
+  "Officeworks": {
+   "rows": 0,
+   "alternate_rows": 6,
+   "scopes": [],
+   "variants": []
+  },
+  "Showlogic": {
+   "rows": 0,
+   "alternate_rows": 3,
+   "scopes": [],
+   "variants": []
+  },
+  "LANG AG": {
+   "rows": 0,
+   "alternate_rows": 3,
+   "scopes": [],
+   "variants": []
+  },
+  "ITI": {
+   "rows": 0,
+   "alternate_rows": 3,
+   "scopes": [],
+   "variants": []
+  },
+  "Big W": {
+   "rows": 0,
+   "alternate_rows": 2,
+   "scopes": [],
+   "variants": []
+  },
+  "Logitech": {
+   "rows": 0,
+   "alternate_rows": 2,
+   "scopes": [],
+   "variants": []
+  },
+  "Bluefin": {
+   "rows": 0,
+   "alternate_rows": 1,
+   "scopes": [],
+   "variants": []
+  },
+  "Stokes": {
+   "rows": 0,
+   "alternate_rows": 1,
+   "scopes": [],
+   "variants": []
+  }
+ },
+ "skipped": {
+  "DONT ORDER": {
+   "rows": 15,
+   "note": "marked do-not-order in the BoM"
+  },
+  "(blank)": {
+   "rows": 15,
+   "note": "no vendor recorded — needs manual assignment"
+  },
+  "TBC": {
+   "rows": 8,
+   "note": "vendor still to be confirmed in the BoM"
+  },
+  "DON’T ORDER": {
+   "rows": 7,
+   "note": "marked do-not-order in the BoM"
+  },
+  "DONT ORDER / Ingram / ALD": {
+   "rows": 4,
+   "note": "marked do-not-order in the BoM"
+  },
+  "????": {
+   "rows": 2,
+   "note": "vendor unknown in the BoM"
+  }
+ }
+}

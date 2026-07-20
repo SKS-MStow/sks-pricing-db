@@ -1,0 +1,104 @@
+/* SKS Quote Tool — corporate quoting theme.
+   Source of truth: design/README.md + design/SKS Quote Tool - Theme.dc.html.
+   Purple is EVERY interactive accent; dark blue is structural ink only. */
+
+:root{
+  --bg:#EAEDF1; --surface:#FFFFFF; --surface-2:#F2F5F8; --fill:#E9EEF3;
+  --ink:#1F335C; --muted:#566686; --muted-2:#94A0B0; --line:#DCE2EA; --line-2:#EBEEF3;
+  --accent:#7C77B9; --accent-soft:#ECEAF6; --accent-ink:#4D4886;
+  --cta:#7C77B9; --cta-soft:#ECEAF6; --cta-ink:#4D4886;
+  --purple:#7C77B9; --purple-soft:#ECEAF6;
+  --good:#2F7A55; --good-soft:#E4F0EA;
+  --amber:#8A6D2B; --amber-soft:#F6EFDD;
+  --danger:#B0402A; --danger-soft:#F5E3DE;
+  --shadow:0 1px 2px rgba(31,51,92,.07), 0 10px 28px rgba(31,51,92,.10);
+  --font:'Mulish',system-ui,sans-serif;
+  --head:'Roboto',system-ui,sans-serif;
+}
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);font-family:var(--font);color:var(--ink);-webkit-font-smoothing:antialiased}
+a{color:var(--cta-ink);text-decoration:none;cursor:pointer}
+a:hover{color:var(--accent)}
+button{font-family:inherit}
+h1,h2,h3,h4{font-family:var(--head);margin:0}
+p{margin:0}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px;border:3px solid var(--surface)}
+input[type=range]{accent-color:var(--accent);cursor:pointer}
+input[type=number]{-moz-appearance:textfield}
+
+/* ---- layout ---- */
+.wrap{max-width:1400px;margin:0 auto;padding:22px 30px 46px}
+.wrap-wide{max-width:1920px;margin:0 auto;padding:22px 30px 46px}
+.shell{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow)}
+
+/* ---- type ---- */
+.h-page{font-family:var(--head);font-weight:900;font-size:26px;letter-spacing:-.01em}
+.h-card{font-family:var(--head);font-weight:700;font-size:15px}
+.label{font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.label-block{display:block;margin-bottom:5px}
+.section-label{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink)}
+.muted{color:var(--muted)}
+.muted-2{color:var(--muted-2)}
+.num{font-variant-numeric:tabular-nums}
+
+/* ---- buttons (radius 8) ---- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;border-radius:8px;cursor:pointer;white-space:nowrap;transition:background .15s ease,border-color .15s ease,opacity .15s ease;font-family:inherit}
+.btn-primary{border:none;background:var(--cta);color:#fff;font-family:var(--head);font-size:13.5px;font-weight:700;padding:9px 18px}
+.btn-primary:hover{opacity:.9}
+.btn-soft{border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent-ink);font-size:12.5px;font-weight:700;padding:7px 13px}
+.btn-soft:hover{opacity:.9}
+.btn-secondary{border:1px solid var(--line);background:var(--surface);color:var(--muted);font-size:12.5px;font-weight:600;padding:8px 13px}
+.btn-secondary:hover{border-color:var(--muted-2)}
+.btn-dashed{border:1px dashed var(--accent);background:var(--accent-soft);color:var(--accent-ink);font-size:13px;font-weight:600;padding:9px 15px}
+.btn-dashed:hover{opacity:.9}
+.btn-danger{border:1px solid var(--line);background:var(--surface);color:var(--danger);font-size:12.5px;padding:8px 13px}
+.btn-danger:hover{background:var(--danger-soft);border-color:var(--danger)}
+
+/* ---- pills / tabs / badges (radius 20) ---- */
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;padding:6px 12px;border-radius:20px;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--muted);transition:background .15s ease,border-color .15s ease}
+.pill.active{border-color:var(--accent);background:var(--accent);color:#fff;font-weight:700}
+.tab{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;padding:7px 14px;border-radius:20px;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--muted);transition:background .15s ease,border-color .15s ease}
+.tab.active{border-color:var(--accent);background:var(--accent);color:#fff;font-weight:700}
+.chip{display:inline-block;background:var(--accent-soft);color:var(--accent-ink);font-size:11px;font-weight:700;padding:3px 11px;border-radius:20px;white-space:nowrap}
+.step-badge{width:20px;height:20px;border-radius:50%;background:var(--accent);color:#fff;font-size:12px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+.status-pill{display:inline-block;font-size:11px;font-weight:700;padding:3px 11px;border-radius:20px;white-space:nowrap}
+.st-draft{background:var(--fill);color:var(--muted)}
+.st-sent{background:var(--amber-soft);color:var(--amber)}
+.st-won{background:var(--good-soft);color:var(--good)}
+.st-lost{background:#F3E1DA;color:var(--danger)}
+
+/* ---- inputs (radius 9) ---- */
+.input{width:100%;border:1px solid var(--line);border-radius:9px;padding:10px 12px;font:inherit;font-size:14px;background:var(--surface-2);color:var(--ink)}
+.input-white{background:var(--surface)}
+.input:focus{outline:2px solid var(--accent-soft);border-color:var(--accent)}
+textarea.input{resize:vertical;line-height:1.5}
+select.input{cursor:pointer}
+.search{position:relative;display:flex;align-items:center}
+.search>.search-icon{position:absolute;left:12px;color:var(--muted-2);font-size:14px}
+.search>input{padding-left:33px}
+/* overridden-from-default state — purple treatment + revert affordance */
+.overridden{border-color:var(--accent)!important;background:var(--accent-soft)!important;color:var(--accent-ink)!important;font-weight:700}
+.revert{font-size:12px;color:var(--accent-ink);cursor:pointer;text-decoration:none}
+.revert:hover{color:var(--accent)}
+.revert-hidden{visibility:hidden}
+
+/* ---- cards ---- */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.card-header{display:flex;align-items:center;gap:10px;padding:14px 16px;border-bottom:1px solid var(--line-2);background:var(--surface-2)}
+
+/* ---- tables ---- */
+.thead-caps{color:var(--muted);font-size:11px;letter-spacing:.05em;text-transform:uppercase}
+.row-line{border-top:1px solid var(--line-2)}
+
+/* ---- sticky navy totals bar ---- */
+.totals-bar{position:sticky;bottom:0;display:flex;align-items:center;justify-content:center;padding:15px 22px;background:var(--ink);color:#EAF0F7}
+.totals-bar .stat-label{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9DB0CC}
+.totals-bar .stat-value{font-size:19px;font-weight:700;font-family:var(--head)}
+
+/* ---- misc ---- */
+.vsep{width:1px;background:var(--line);align-self:stretch}
+.avatar{border-radius:50%;background:var(--accent);color:#fff;font-family:var(--head);font-weight:700;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+.chev{transition:transform .2s ease;display:inline-block;color:var(--muted)}
+.chev.open{transform:rotate(180deg)}

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "pricing-mock",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["dev/mock-api-server.js", "src", "4175"],
+      "port": 4175
+    }
+  ]
+}
