@@ -312,3 +312,15 @@ writes go through the MCP pricelist flow. Shipped instead:
   added (9 route tests green).
 - Alloys configured as the first feed supplier (CSV feed URL + 40d cadence in
   scan_config, both envs) — switchover import itself still to run.
+
+Seed purge (20 Jul 2026, Mark: "remove all data pulled from the master bom —
+its kinda cooked it"): all 'Master BoM seed — Jul 2026' revisions deleted from
+BOTH envs (prod −5,380 items → 56,104 active; staging −5,081 → 56,959).
+Items + per-SKU change logs cascaded with the revisions; per-supplier 'purge'
+audit events written (visible in the Activity tab). KEPT: the 141 supplier
+registry entries (empty, ready for proper imports — use "Hide suppliers
+without pricing" in the app), scan_config cadences + the Alloys feed config,
+and the original import audit events (history stays honest). The store is now
+MCP-imported pricelists only. Data lineage (registry, maps, seed.sql) stays in
+data/ as the historical record; do NOT re-apply seed.sql. Supplier pricing
+from here on: feeds/pricelists handed to the AI → pricelist_import_rows flow.
