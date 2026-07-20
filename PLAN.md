@@ -324,3 +324,13 @@ and the original import audit events (history stays honest). The store is now
 MCP-imported pricelists only. Data lineage (registry, maps, seed.sql) stays in
 data/ as the historical record; do NOT re-apply seed.sql. Supplier pricing
 from here on: feeds/pricelists handed to the AI → pricelist_import_rows flow.
+
+Supplier nuke (20 Jul 2026, follow-up to the seed purge): all empty seed-era
+supplier registry rows deleted from both envs (prod −142 → 29 suppliers;
+staging −136 → 32). Kept: every supplier with real pricing, plus ALLOYS
+(empty but feed-configured — the import flow rejects unknown suppliers, so it
+must pre-exist for the agent-run feed import). scan_config cascaded away with
+its suppliers except Alloys'. Audit events keep their story: supplier names
+were folded into event details before the FK nulled. NOTE for future imports:
+suppliers are never auto-created — creating one is a deliberate admin/SQL
+step before pricelist_import_rows can target it.
