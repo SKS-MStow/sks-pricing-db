@@ -348,3 +348,22 @@ staging branch/env — master (and therefore prod) has no /pricelist/import-rows
 at all. Agent-driven imports land on STAGING until the staging pricelist
 engine is merged to master and prod is reconciled (task in flight). The
 Alloys switchover test should target staging.
+
+PROD GETS THE ENGINE (20 Jul 2026, Mark: "it needs to get to prod"):
+- staging → master merged (5af933e; 6 conflicts resolved by lineage: upload/
+  attachment/dashboard files = master ahead; issue-tracker = staging superset;
+  server.js comment union). 43/43 tests green on merge-touched areas. Two
+  submissions-route failures are PRE-EXISTING on the staging line (fail on
+  pure origin/staging too) — carried, not caused.
+- The other session's prod-checkout reconcile (03c5547, loose files committed
+  into master) landed first; clean ancestor of the merge.
+- Prod DB: quotes schema backed up (/opt/fieldapps/backups/quotes-pre-
+  migration-202607200605.dump, 16 MB), then migrations 019→046 applied in
+  order — clean run, only IF-NOT-EXISTS notices. Prod's 56k items now on the
+  simplified 12-category taxonomy (was 39 raw).
+- Prod checkout pulled to 5af933e + container rebuilt. import-rows engine +
+  createSupplier flow now LIVE ON PROD; prod MCP container already carries the
+  new tool schema. Agent-driven pricelist imports (incl. the Alloys feed test)
+  can now target PROD.
+- Flag: /quotes/ (V1 static frontend on prod www) may predate the simplified
+  API it now talks to — untested; V1 has no users but worth a glance.
