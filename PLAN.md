@@ -334,3 +334,17 @@ its suppliers except Alloys'. Audit events keep their story: supplier names
 were folded into event details before the FK nulled. NOTE for future imports:
 suppliers are never auto-created — creating one is a deliberate admin/SQL
 step before pricelist_import_rows can target it.
+
+Supplier-creation friction removed (20 Jul 2026, Mark: MCP users are all
+admins — a create-first admin step "just adds a big point of friction"): on an
+unknown supplier, import-rows now tells the agent to ASK THE USER — existing
+supplier under another name → re-call with its supplierId; genuinely new →
+re-call with `createSupplier: true`, which creates the supplier (audited
+'supplier-created' event) and stages in one call. Ambiguous matches still
+error. Shipped: field-api staging (5f7a24f) + fieldapps-MCP tool schema/
+description (a306992), MCP containers rebuilt both envs.
+KNOWN CONSTRAINT: the whole rows-first import engine exists ONLY on the
+staging branch/env — master (and therefore prod) has no /pricelist/import-rows
+at all. Agent-driven imports land on STAGING until the staging pricelist
+engine is merged to master and prod is reconciled (task in flight). The
+Alloys switchover test should target staging.
