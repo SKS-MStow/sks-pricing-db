@@ -7,7 +7,7 @@
      200 + grant        → resolves { user, name, initials, isAdmin }
    On any redirect the promise never resolves, so page init halts cleanly. */
 
-import { initialsOf } from './ui.js?v=1';
+import { initialsOf } from './ui.js?v=2';
 
 const HALT = new Promise(() => {});
 

@@ -44,7 +44,9 @@ function qs(p = {}) {
 export const pricingApi = {
   freshness: () => req('GET', '/freshness').then(j => j.rows),
   suppliers: () => req('GET', '/suppliers').then(j => j.suppliers),
+  supplier: id => req('GET', '/suppliers/' + encodeURIComponent(id)),
   search: p => req('GET', '/search' + qs(p)),
   revisions: supplierId => req('GET', '/revisions' + qs({ supplier_id: supplierId })).then(j => j.revisions),
   changes: (revId, p = {}) => req('GET', `/revisions/${revId}/changes` + qs(p)),
+  activity: () => req('GET', '/activity'),
 };

@@ -295,3 +295,20 @@ P4 record (20 Jul 2026) — Pricing Database app v1 (read-only), staging + prod:
 Repo split record (20 Jul 2026): app moved out of SKS-Quotes-V2 into this
 repo per Mark ("needs its own git"). Frontend now at /pricing/ (own Caddy
 handle_path + www dir); the quotes repo keeps only the builder picker.
+
+P5 redefined + shipped (20 Jul 2026): NO approval/import UI — Mark's call:
+"the LLM drives this; I want it transparent". The app stays read-only; all
+writes go through the MCP pricelist flow. Shipped instead:
+- Supplier-centric front door: sortable/filterable supplier list (status dot,
+  source kind, items, revisions, last import, age by urgency ratio) → click
+  into a supplier: "How this supplier updates" (source kind + feed URL +
+  cadence from pricelist_scan_config, now with source_kind/source_url columns
+  — migration applied staging+prod), current pricing per scope, revision
+  history with per-SKU diffs, recent audit activity.
+- Freshness board: sortable columns + text filter; rows click through to the
+  supplier.
+- Activity tab: pending AI-staged imports (pricelist_file_scans) + the full
+  audit timeline with actor attribution. /api/pricing/activity + /suppliers/:id
+  added (9 route tests green).
+- Alloys configured as the first feed supplier (CSV feed URL + 40d cadence in
+  scan_config, both envs) — switchover import itself still to run.

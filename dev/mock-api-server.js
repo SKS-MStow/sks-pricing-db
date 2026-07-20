@@ -49,8 +49,55 @@ function api(req, res, url) {
     }) });
   }
   if (p === '/pricing/suppliers') {
-    return send(res, 200, { suppliers: SUPPLIERS.map(s => ({ id: s.id, code: s.name.toUpperCase().replace(/[^A-Z0-9]/g, ''),
-      name: s.name, is_active: true, active_items: ITEMS.filter(x => x.supplier_id === s.id).length, revisions: s.id === 1 ? 2 : 1 })) });
+    const ages = { 1: 12, 2: 65, 3: 130, 4: 200, 5: 380 };
+    return send(res, 200, { suppliers: SUPPLIERS.map(s => {
+      const days = ages[s.id], stale = s.id === 2 ? 45 : 180, ratio = days / stale;
+      return { id: s.id, code: s.name.toUpperCase().replace(/[^A-Z0-9]/g, ''), name: s.name, is_active: true,
+        active_items: ITEMS.filter(x => x.supplier_id === s.id).length, revisions: s.id === 1 ? 2 : 1,
+        last_import: '2026-07-01T00:00:00Z', stale_days: stale,
+        source_kind: s.id === 5 ? 'feed-csv' : 'excel', days_old: days,
+        status: ratio >= 1 ? 'stale' : ratio >= 0.7 ? 'aging' : 'fresh' };
+    }) });
+  }
+  const sm = p.match(/^\/pricing\/suppliers\/(\d+)$/);
+  if (sm) {
+    const sid = +sm[1];
+    const sup = SUPPLIERS.find(x => x.id === sid);
+    if (!sup) return send(res, 404, { error: 'Supplier not found' });
+    return send(res, 200, {
+      supplier: { id: sid, code: sup.name.toUpperCase().replace(/[^A-Z0-9]/g, ''), name: sup.name, is_active: true,
+        contact_name: sid === 5 ? 'Sales Team' : null, contact_email: sid === 5 ? 'sales@alloys.example' : null, contact_phone: null, notes: null },
+      config: sid === 5 ? [{ scope_label: null, stale_days: 40, source_kind: 'feed-csv',
+        source_url: 'https://feeds.alloys.example/e_CSV_Ecom_MW.asp?src=all&token=****', updated_at: 'now' }]
+        : [{ scope_label: null, stale_days: 180, source_kind: 'excel', source_url: null, updated_at: 'now' }],
+      freshness: [{ revision_id: 100 + sid, scope_label: sid === 4 ? 'deal-reg-5' : null,
+        revision_label: 'Jul 2026', imported_at: '2026-07-01T00:00:00Z',
+        items: ITEMS.filter(x => x.supplier_id === sid).length, days_old: sid * 30 }],
+      revisions: [
+        { id: 100 + sid, scope_label: null, revision_label: 'Jul 2026', filename: 'pricelist.xlsx', imported_at: '2026-07-01T00:00:00Z',
+          is_active: true, archived_at: null, summary: { added: 12, changed: 30, removed: 4 }, items: ITEMS.filter(x => x.supplier_id === sid).length },
+        { id: 90, scope_label: null, revision_label: 'Mar 2026', filename: 'old.xlsx', imported_at: '2026-03-01T00:00:00Z',
+          is_active: false, archived_at: '2026-07-01T00:00:00Z', summary: { added: 200 }, items: 210 },
+      ],
+      events: [
+        { action: 'import', reason: 'Feed refresh (AI, weekly)', details: {}, created_at: '2026-07-01T02:00:00Z', revision_label: 'Jul 2026', actor_name: 'Claude (MCP)' },
+        { action: 'rollback', reason: 'price anomaly review', details: {}, created_at: '2026-05-10T02:00:00Z', revision_label: 'Mar 2026', actor_name: 'Mark Stow' },
+      ],
+    });
+  }
+  if (p === '/pricing/activity') {
+    return send(res, 200, {
+      pending: [{ id: 1, filename: 'rows', source_kind: 'rows', scope_label: null, uploaded_at: '2026-07-20T11:30:00Z',
+        status: 'pending', notes: null, supplier_name: 'Alloys', staged_count: 2140, revision_label: 'Alloys feed 20 Jul 2026' }],
+      events: [
+        { id: 3, action: 'import', reason: 'Master BoM seed (P3, approved by Mark 20 Jul 2026)', details: {}, created_at: '2026-07-20T04:00:00Z',
+          supplier_name: 'Extron', revision_label: 'Master BoM seed — Jul 2026', scope_label: null, actor_name: null, actor_username: null },
+        { id: 2, action: 'import', reason: 'Feed refresh', details: {}, created_at: '2026-07-01T02:00:00Z',
+          supplier_name: 'Crestron ANZ', revision_label: 'Jul 2026', scope_label: null, actor_name: 'Claude (MCP)', actor_username: 'mcp' },
+        { id: 1, action: 'rollback', reason: 'price anomaly review', details: {}, created_at: '2026-05-10T02:00:00Z',
+          supplier_name: 'MadisonAV', revision_label: 'Mar 2026', scope_label: null, actor_name: 'Mark Stow', actor_username: 'mark' },
+      ],
+    });
   }
   if (p === '/pricing/search') {
     const q = url.searchParams;
