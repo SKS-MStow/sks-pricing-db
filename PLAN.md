@@ -387,3 +387,13 @@ containers. Verified from the prod container: the real Alloys feed fetches —
 PriceCostEx (dealer ex-GST) — the mapping step will be trivial.
 NOTE: existing chat sessions have stale tool inventories — reconnect the
 integration (or start a fresh chat) to see the new tools.
+
+Two-products clarification (20 Jul 2026): agent-created quote 324 (Westpac)
+landed in the OLD simplified quotes product (schema `quotes`, UI /quotes/) —
+the /mcp/quotes connector carries that product's quote-authoring tools
+alongside the pricelist tools. Quotes V2 (schema quotes_v2, UI /quotes-v2/)
+is a separate product with its own MCP at /mcp/quotes-v2. Prod's stale V1
+frontend was synced from staging (backup src.bak-pre-simplified-20260720) so
+the simplified product is actually usable on prod. Connector guidance: use
+/mcp/quotes for PRICING work; use /mcp/quotes-v2 (same client id
+fieldapps-claude-prod) for authoring quotes in the V2 app.
