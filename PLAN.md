@@ -367,3 +367,23 @@ PROD GETS THE ENGINE (20 Jul 2026, Mark: "it needs to get to prod"):
   can now target PROD.
 - Flag: /quotes/ (V1 static frontend on prod www) may predate the simplified
   API it now talks to — untested; V1 has no users but worth a glance.
+
+Server-side feed fetch shipped (20 Jul 2026, Mark: feeds must download to the
+server — chat agents are egress-sandboxed): two new MCP tools.
+pricelist_fetch_source(supplier) → field-api downloads the ADMIN-CONFIGURED
+scan_config.source_url (never an agent URL — SSRF boundary; 25MB/45s caps),
+parses CSV (RFC4180-ish), stores in quotes.pricelist_source_fetches
+(migration 047, applied stg+prod) and returns a COMPACT summary: column
+profiles (fill/numeric/distinct values), 20 sample rows, canonical category
+list, fetchId. pricelist_stage_fetched(fetchId, mapping, category_map,
+default_category, gst_inclusive) → server applies the mapping to ALL rows
+(dupe SKUs first-wins) and funnels into stageRowsImportCore — the import-rows
+handler body, now extracted so both paths share guardrails/preview/commit
+identically. Also fixed a null-match crash in the createSupplier response.
+5 unit tests (parser/profile/mapping); 30/30 on the merged tree. Deployed:
+migration both DBs, field-api staging+master+both containers, MCP both
+containers. Verified from the prod container: the real Alloys feed fetches —
+8.5MB CSV, 7,329 rows, cols incl PartNumber/Name/Manufacturer/CategoryName/
+PriceCostEx (dealer ex-GST) — the mapping step will be trivial.
+NOTE: existing chat sessions have stale tool inventories — reconnect the
+integration (or start a fresh chat) to see the new tools.
